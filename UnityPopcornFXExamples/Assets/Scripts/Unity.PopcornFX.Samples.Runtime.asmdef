@@ -1,0 +1,17 @@
+{
+    "name": "Unity.PopcornFX.Samples.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:29af3fce8f8cac1469ca1f08a27174fa",
+        "GUID:012a8ae25cf36394a90dd174df53a05a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2939063251517563042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7390975473315390114}
+  - component: {fileID: 5406935301801098289}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7390975473315390114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2939063251517563042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5406935301801098289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2939063251517563042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771c3d339a2095247946833393ea6580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetObject: {fileID: 0}
+  m_PersitentTargetObject: {fileID: 0}
+  m_Dividers:
+  - Part: {fileID: 919132149155446097, guid: 6254ed7a6c5c31c44a7cda8bf5b26957, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: e3525e81112f46b41a313d81c26efdf6, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_BackWalls:
+  - Part: {fileID: 919132149155446097, guid: 472a621669b56ff4facc08dfa9de54d3, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1.75, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: ef2595de03210e24d86e81df263385ca, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1.75, y: 1, z: 1}
+  m_Clamps:
+  - Part: {fileID: 919132149155446097, guid: e9279bae40ba6744595b3537665f5260, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 54f55705efe058d4e83f5f231fc0b627, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Ls:
+  - Part: {fileID: 919132149155446097, guid: d22f51e407d14b64ca9b5ef9dc528ee6, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 41d86267b71202842ae4701481e7d511, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Trim:
+  - Part: {fileID: 919132149155446097, guid: 8d5f017c810a45b4b9f8faf413d8880c, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 8bbfe303159e60c44ba0464de67d1c4d, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 61b60fb231d779044bafc67b653b3b56, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Us:
+  - Part: {fileID: 919132149155446097, guid: 13443849e2748ca438d20610a4f21f8e, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: a99013540938785459309b2946705fb6, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 0}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Walls:
+  - Part: {fileID: 919132149155446097, guid: 1f5368b7e7a096948b23e18b4892ed5e, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: f64fabe7da5d35d4196fb4bc67e3ea94, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Stand:
+    Part: {fileID: 7978958598940169572, guid: 25faa4d23f69e6b489ea6a36ae948548, type: 3}
+    Offset: {x: -5, y: -0.15, z: -15.3}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Divider:
+    Part: {fileID: 7799298849275078268, guid: 301d335a376a7f549bcae6b221df4a18, type: 3}
+    Offset: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  m_CeilLight:
+    Part: {fileID: 5762755963260464357, guid: 0a6bfbe950eb8e8459f50ea8929e127c, type: 3}
+    Offset: {x: -5, y: 5, z: -12.5}
+    Scale: {x: 1, y: 1, z: 1}
+  Rooms: 2
+  Segments: 6
+  Terrasse: 0
+  DoubleHeight: 0

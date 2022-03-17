@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7978958598940169572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7978958598940169573}
+  - component: {fileID: 7978958598940169562}
+  m_Layer: 0
+  m_Name: Stand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7978958598940169573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978958598940169572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7978958598940169562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978958598940169572}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc3925ca45540b48945d8c2e7adf312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Variations:
+  - Part: {fileID: 919132149155446097, guid: 31b821f454d59064488b668e995944e9, type: 3}
+    Offset: {x: 0, y: -0.06, z: 0.2}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 3fc7ae1374440a143b73e34161dc525c, type: 3}
+    Offset: {x: 0, y: 0, z: 0.2}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 07335ea69dbd50046a1daa85d4b60402, type: 3}
+    Offset: {x: 0, y: -0.06, z: 0.2}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: 23e199513c3352a45b8729b84de737d4, type: 3}
+    Offset: {x: 0, y: -0.06, z: 0.2}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 919132149155446097, guid: bd98df80188d63545859dc8e4ba5485b, type: 3}
+    Offset: {x: 0, y: 0, z: 0.2}
+    Scale: {x: 1, y: 1, z: 1}
+  - Part: {fileID: 0}
+    Offset: {x: 0, y: 0, z: 0.2}
+    Scale: {x: 1, y: 1, z: 1}
+  m_StringVariations:
+  - DemoDisplay_Base01
+  - DemoDisplay_Base02
+  - DemoDisplay_Base03
+  - DemoDisplay_Base04
+  - DemoDisplay_Base05
+  - Empty
+  m_TriggerButtonPrefab:
+    Part: {fileID: 2907507619380833315, guid: acffae985ac8e4e41a6f447442226fdc, type: 3}
+    Offset: {x: 0, y: 0.1, z: 1.9}
+    Scale: {x: 1, y: 1, z: 1}
+  m_NamePlatePrefab:
+    Part: {fileID: 919132149155446097, guid: bd98df80188d63545859dc8e4ba5485b, type: 3}
+    Offset: {x: 0, y: 0.2, z: 1.55}
+    Scale: {x: 1, y: 1, z: 1}
+  m_Effects: []
+  BaseImageMaterial: {fileID: 2100000, guid: cd3b73709f9fd3e44acc6b2676521fec, type: 2}
+  Font: {fileID: 12800000, guid: ce507cb47d922214e949dbb9f04fa6ef, type: 3}
+  m_TriggerButtonInstance: {fileID: 0}

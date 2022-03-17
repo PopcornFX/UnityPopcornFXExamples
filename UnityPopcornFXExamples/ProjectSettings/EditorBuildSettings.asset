@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_WelcomeToPopcornFX.unity
+    guid: 9bb683d301f8f244490d5f930e68b0be
+  - enabled: 1
+    path: Assets/Scenes/01_Effects.unity
+    guid: 6be645f5a597b0d48a98f1a25f44bbb3
+  - enabled: 1
+    path: Assets/Scenes/02_Emitters.unity
+    guid: 74b76f9068a049146ac5992e5cf46aaa
+  - enabled: 1
+    path: Assets/Scenes/03_Attributes.unity
+    guid: 2f3286bc168cab2449501dde4f7f9100
+  - enabled: 1
+    path: Assets/Scenes/04_Samplers.unity
+    guid: 15501c6dc88439d40911245c2b8c2b54
+  - enabled: 1
+    path: Assets/Scenes/05_Physics.unity
+    guid: 46e524b4a34269c44aacd062d99d6199
+  - enabled: 1
+    path: Assets/Scenes/06_Rendering.unity
+    guid: d3d92e2e36f7bc0489d657b4a708fd55
+  m_configObjects: {}

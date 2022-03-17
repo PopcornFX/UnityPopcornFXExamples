@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09159473643531345883668017193e4d, type: 3}
+  m_Name: PKFxSettings
+  m_EditorClassIdentifier: 
+  m_GeneralCategory: 1
+  m_AssetCategory: 1
+  m_EnableRaycastForCollisions: 0
+  m_PopcornPackFxPath:
+  m_UnityPackFxPath: /PopcornFXAssets
+  m_EnableForceDeterminism: 0
+  m_EnablePopcornFXLogs: 1
+  m_EnableEffectHotreload: 1
+  m_EnableHotreloadInPlayMode: 0
+  m_EnableFileLogs: 0
+  m_PopcornLayerName:
+  - PopcornFX_0
+  - PopcornFX_1
+  - PopcornFX_2
+  - PopcornFX_3
+  m_AssetGUID:
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/73_SampleMesh.pkfx.asset
+    m_New: fa66a39fa7f2cf94cb6a87463d99b814
+    m_Old: fa66a39fa7f2cf94cb6a87463d99b814
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/72_RenderTargetSample_Mesh.pkfx.asset
+    m_New: 54167b3d694592e439f77c7a544f4242
+    m_Old: 54167b3d694592e439f77c7a544f4242
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/71_RenderTargetSample.pkfx.asset
+    m_New: 58a9f3c44e19f014aa203f6109725342
+    m_Old: 58a9f3c44e19f014aa203f6109725342
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/55_Sequencer_Burst.pkfx.asset
+    m_New: b1806235d13c19e428cb178c4ace7ad1
+    m_Old: b1806235d13c19e428cb178c4ace7ad1
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/47_VolumetricFog.pkfx.asset
+    m_New: 65f9c277fdddc67429fe1d3cd10cdd06
+    m_Old: 65f9c277fdddc67429fe1d3cd10cdd06
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/45_SixWayLightmap.pkfx.asset
+    m_New: 298a1343f5e74dc4d9939542cea638d9
+    m_Old: 298a1343f5e74dc4d9939542cea638d9
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/44_Shadows.pkfx.asset
+    m_New: 10bd709dc9674d44c87361625853ce6f
+    m_Old: 10bd709dc9674d44c87361625853ce6f
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/42_Lights.pkfx.asset
+    m_New: f8d9b2af730370c48aa1e4d17e5b1414
+    m_Old: f8d9b2af730370c48aa1e4d17e5b1414
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/41_DynamicParameters.pkfx.asset
+    m_New: 12b881e30d187d142a47ee692e33ed80
+    m_Old: 12b881e30d187d142a47ee692e33ed80
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/40_CustomMaterial.pkfx.asset
+    m_New: 4dc7a1e33468adb4889a08af467bace5
+    m_Old: 4dc7a1e33468adb4889a08af467bace5
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/30_CollisionFilters.pkfx.asset
+    m_New: 74f5d0fb464de18499090d4cb653c7a3
+    m_Old: 74f5d0fb464de18499090d4cb653c7a3
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/10_Scalability.pkfx.asset
+    m_New: 4a5889338407a1143b9a546bdbecb0f3
+    m_Old: 4a5889338407a1143b9a546bdbecb0f3
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Pk_DrawRequests_Meshes.pkfx.asset
+    m_New: 68d27d9e022656d4ba0b798b8f1a87bb
+    m_Old: 68d27d9e022656d4ba0b798b8f1a87bb
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Pk_DrawRequests_Billboard_2.pkfx.asset
+    m_New: bf25b0005ad7a3948a14b75945304436
+    m_Old: bf25b0005ad7a3948a14b75945304436
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Pk_DrawRequests_Billboard.pkfx.asset
+    m_New: 4f2627c0fcfe87a42834bac50c1171c2
+    m_Old: 4f2627c0fcfe87a42834bac50c1171c2
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Triangles_Sort.pkfx.asset
+    m_New: 4676cebdb96dc39469e8642713be9825
+    m_Old: 4676cebdb96dc39469e8642713be9825
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Triangles_Enabled_Sort.pkfx.asset
+    m_New: 3bb4691a7f75bb147b42da19ee9e19ec
+    m_Old: 3bb4691a7f75bb147b42da19ee9e19ec
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Ribbon_Sort.pkfx.asset
+    m_New: 6a6abf8e28b3ad946be3f8087e1174f2
+    m_Old: 6a6abf8e28b3ad946be3f8087e1174f2
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Ribbon_Enabled_Sort.pkfx.asset
+    m_New: 06a96c35c9e4c4d4a80a96bb1de1d476
+    m_Old: 06a96c35c9e4c4d4a80a96bb1de1d476
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Billboards_Sort.pkfx.asset
+    m_New: 8f602e37b9ae2cf48a9e09eb627d0f9e
+    m_Old: 8f602e37b9ae2cf48a9e09eb627d0f9e
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Billboards_Capsule_Sort.pkfx.asset
+    m_New: 04700b0c465921449b80d9dcadebd45a
+    m_Old: 04700b0c465921449b80d9dcadebd45a
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Transparent/Pk_Billboarding_Billboards_Capsule_Enabled_Sort.pkfx.asset
+    m_New: c4821cedc921e9540a1b8fdb18d67f45
+    m_Old: c4821cedc921e9540a1b8fdb18d67f45
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Triangles_Enabled.pkfx.asset
+    m_New: f5a9d84a27a69c84ebe0e9b2bb0c547f
+    m_Old: f5a9d84a27a69c84ebe0e9b2bb0c547f
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Triangles.pkfx.asset
+    m_New: 6937e3f2a9784564ea82cec3648f4cc2
+    m_Old: 6937e3f2a9784564ea82cec3648f4cc2
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Ribbon_Enabled.pkfx.asset
+    m_New: bcfa8f073b78b184f86f5b126486fb9a
+    m_Old: bcfa8f073b78b184f86f5b126486fb9a
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Ribbon.pkfx.asset
+    m_New: 4c665f2c7d2a7df4b867c199d2b76b86
+    m_Old: 4c665f2c7d2a7df4b867c199d2b76b86
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Billboards_Capsule_Enabled.pkfx.asset
+    m_New: a294c3a3607b1b7429095c21d455fa42
+    m_Old: a294c3a3607b1b7429095c21d455fa42
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Billboards_Capsule.pkfx.asset
+    m_New: f0ffc8eb7be9dde4eaec4446a2018c26
+    m_Old: f0ffc8eb7be9dde4eaec4446a2018c26
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/Pk_Billboarding_Billboards.pkfx.asset
+    m_New: f1570a09af229fb4a856402891919254
+    m_Old: f1570a09af229fb4a856402891919254
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Performance/Billboarding/Opaque/CRASH.pkfx.asset
+    m_New: 21d2b5622c439c846a7fce8753fd8103
+    m_Old: 21d2b5622c439c846a7fce8753fd8103
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/46_VertexAnimation.pkfx.asset
+    m_New: 9c2c855fc776ca54cb96390f79618ad7
+    m_Old: 9c2c855fc776ca54cb96390f79618ad7
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/43_Renderers.pkfx.asset
+    m_New: ffb7444f6e989e24282db90c99260151
+    m_Old: ffb7444f6e989e24282db90c99260151
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/32_Collisions_Sphere.pkfx.asset
+    m_New: 78a874980927b7a4ab492a8198a18467
+    m_Old: 78a874980927b7a4ab492a8198a18467
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/31_Collisions.pkfx.asset
+    m_New: 916643ad59049204686271e8b3382de3
+    m_Old: 916643ad59049204686271e8b3382de3
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/23_VectorFieldSample.pkfx.asset
+    m_New: 6778541ddb321d2488d225957b99f15f
+    m_Old: 6778541ddb321d2488d225957b99f15f
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/22_TextureSample.pkfx.asset
+    m_New: c9b92aa66c39bb64caffb74fae433283
+    m_Old: 611d674fe054f2b41984456e842ad7cd
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/21_MeshSample.pkfx.asset
+    m_New: 344d24f5b99811841af7df4233723e98
+    m_Old: 344d24f5b99811841af7df4233723e98
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/20_CurveSample.pkfx.asset
+    m_New: 99fdfc9f51fae9a4287ae838fb3854f1
+    m_Old: 99fdfc9f51fae9a4287ae838fb3854f1
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/15_Attributes.pkfx.asset
+    m_New: b1737cccfe13774409c9aec008aea0cb
+    m_Old: f99abde184bd47d4682bd0dd474025c6
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/09_Prewarm.pkfx.asset
+    m_New: ef8c6ca24172b2845967e44394fc1318
+    m_Old: ef8c6ca24172b2845967e44394fc1318
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/08_ParticleEvents.pkfx.asset
+    m_New: cde1b84c892c5e243b4f975632c6f260
+    m_Old: cde1b84c892c5e243b4f975632c6f260
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/07_Localspace.pkfx.asset
+    m_New: ff1288f0d13b3654cadf808cdff946e5
+    m_Old: b21a04edf9f7af74a895f3992bd7d87c
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/06_Burst.pkfx.asset
+    m_New: 7500df5e114fd7e4f8562ab09c76e2ec
+    m_Old: 7500df5e114fd7e4f8562ab09c76e2ec
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/05_BasicEmitter.pkfx.asset
+    m_New: 22292e5109b9bea49a06597743b09142
+    m_Old: 22292e5109b9bea49a06597743b09142
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/00_Fountain.pkfx.asset
+    m_New: b5120df6f619c324692ad2f2a8b38a02
+    m_Old: b5120df6f619c324692ad2f2a8b38a02
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/25_TextSample.pkfx.asset
+    m_New: e71a4d8d2655a5040aa40226ffb4cf8b
+    m_Old: e71a4d8d2655a5040aa40226ffb4cf8b
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/24_AnimTrackSample.pkfx.asset
+    m_New: 791dbc67200b9b747b81c72d2fd23e83
+    m_Old: 791dbc67200b9b747b81c72d2fd23e83
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/08_ParticleEvents_SpawnedMesh.pkfx.asset
+    m_New: afb749d184fe1124abacba2cd3fd799a
+    m_Old: afb749d184fe1124abacba2cd3fd799a
+  m_RenderingCategory: 1
+  m_DebugEffectsBoundingBoxes: 0
+  m_DebugEffectsRaycasts: 0
+  m_MaterialFactory: {fileID: 11400000, guid: 0d556c893be39e546a02e9c23fd782f6, type: 2}
+  m_EnableSoftParticles: 1
+  m_DisableDynamicEffectBounds: 0
+  m_UseGPUBillboarding: 0
+  m_UseMeshInstancing: 0
+  m_EnableLocalizedPages: 0
+  m_EnableLocalizedByDefault: 0
+  m_FreeUnusedBatches: 0
+  m_FrameCountBeforeFreeingUnusedBatches: 240
+  m_AutomaticMeshResizing: 1
+  m_VertexBufferSizeMultiplicator: 0.5
+  m_IndexBufferSizeMultiplicator: 0.5
+  m_MeshesDefaultSize:
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 36036
+    m_DefaultIndexBufferSize: 54057
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Ribbon  Atlas Color Diffuse  Additive UVs Library/Persistant
+      Studios/Common/Textures/Debug.png (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: 'Triangle  Lighting Color Diffuse CastShadow  Solid UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      [Lit: Library/PopcornFXCore/Materials/DefaultTextures/NMap_Flat.dds Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      noShadows 0.5 1 0] (none) (none) (none) 1'
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 54054
+    m_DefaultIndexBufferSize: 108111
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  AlphaBlend UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 6006
+    m_DefaultIndexBufferSize: 9012
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Solid UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  m_ThreadingCategory: 0
+  m_SingleThreadedExecution: 0
+  m_OverrideThreadPoolConfig: 0
+  m_ThreadsAffinity: 
