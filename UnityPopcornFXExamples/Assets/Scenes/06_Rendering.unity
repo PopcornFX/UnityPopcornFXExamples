@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 4cfe0cb3f1773694babe3479b6f02a6d, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 17d28fde9d4595646966f9b33c87474f, type: 2}
   m_FxName: Content/ContentExamples/43_Renderers.pkfx
 --- !u!1 &1036906708
 GameObject:
@@ -4672,7 +4672,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: f54b1e8f0fc55fb4297093b1dc0ad206, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6a9195873fcbb5e4c9cf7192f824b9b0, type: 2}
   m_FxName: Content/ContentExamples/00_Fountain.pkfx
 --- !u!1 &1844209708
 GameObject:

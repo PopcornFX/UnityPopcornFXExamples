@@ -1025,7 +1025,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072589187}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &136517917
 TextMesh:
@@ -1991,7 +1991,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 06aa5a50da503cb4c90aaad824f658bf, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 154e0ca4d92431845b8f18fa5df43402, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &304194423
 GameObject:
@@ -2520,7 +2520,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 06aa5a50da503cb4c90aaad824f658bf, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 154e0ca4d92431845b8f18fa5df43402, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!21 &359871287
 Material:
@@ -2617,7 +2617,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072589187}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &379903928
 MeshCollider:
@@ -3197,7 +3197,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072589187}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &540900868
 MeshCollider:
@@ -3350,7 +3350,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 06aa5a50da503cb4c90aaad824f658bf, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 154e0ca4d92431845b8f18fa5df43402, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &543486065
 GameObject:
@@ -4691,7 +4691,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: -833919394
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 19ae144b6e54098419b6104f8fd6c510, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: d4f28b6ed6bc96a4aaae9f69cf2c9100, type: 2}
   m_FxName: Content/ContentExamples/20_CurveSample.pkfx
 --- !u!1 &786793264
 GameObject:
@@ -5330,7 +5330,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072589187}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &930632480
 TextMesh:
@@ -5922,7 +5922,6 @@ Transform:
   m_Children:
   - {fileID: 474878129}
   - {fileID: 1930950658}
-  - {fileID: 1530823392}
   - {fileID: 540900867}
   - {fileID: 379903927}
   - {fileID: 136517916}
@@ -7803,7 +7802,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 542284033
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: c9b92aa66c39bb64caffb74fae433283, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 55fa7cfbc8f7e5f49b76ce15f5544ff8, type: 2}
   m_FxName: Content/ContentExamples/22_TextureSample.pkfx
 --- !u!114 &1353326819
 MonoBehaviour:
@@ -8012,7 +8011,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 06aa5a50da503cb4c90aaad824f658bf, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 154e0ca4d92431845b8f18fa5df43402, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &1380856942
 GameObject:
@@ -8648,63 +8647,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4042048299457888643, guid: 2fb7bc8120f82684ca758848b5739a9b, type: 3}
   m_PrefabInstance: {fileID: 334923937}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1530823391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1530823392}
-  - component: {fileID: 1530823393}
-  m_Layer: 0
-  m_Name: Fx
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1530823392
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530823391}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1072589187}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1530823393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530823391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlayOnStart: 1
-  m_TriggerAndForget: 0
-  m_KillEffectOnDestroy: 0
-  m_PreWarm: 0
-  m_Events: []
-  m_FxAttributesDesc: []
-  m_EventDescsHash: -1
-  m_FxAttributesDescHash: -1
-  m_FxAttributesStartValues: []
-  m_FxSamplersList: []
-  m_FxSamplersDescHash: -1
-  m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 0}
-  m_FxName: 
 --- !u!1 &1534376607
 GameObject:
   m_ObjectHideFlags: 0
@@ -9169,7 +9111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072589187}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1612460534
 MonoBehaviour:
@@ -10056,7 +9998,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 1
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 06aa5a50da503cb4c90aaad824f658bf, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 154e0ca4d92431845b8f18fa5df43402, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!114 &1819632754
 MonoBehaviour:
@@ -11794,7 +11736,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 1
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 06aa5a50da503cb4c90aaad824f658bf, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 154e0ca4d92431845b8f18fa5df43402, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!21 &2031620688
 Material:

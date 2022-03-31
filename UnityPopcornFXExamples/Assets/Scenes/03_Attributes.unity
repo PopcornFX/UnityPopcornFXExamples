@@ -334,7 +334,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: b1737cccfe13774409c9aec008aea0cb, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 92db920fc5ab7254b8aea9a14d9579b5, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &99682312
 GameObject:
@@ -4331,7 +4331,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: b1737cccfe13774409c9aec008aea0cb, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 92db920fc5ab7254b8aea9a14d9579b5, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!114 &1506116342
 MonoBehaviour:
@@ -5702,7 +5702,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: b1737cccfe13774409c9aec008aea0cb, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 92db920fc5ab7254b8aea9a14d9579b5, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &1915311006
 GameObject:
@@ -6105,7 +6105,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: b1737cccfe13774409c9aec008aea0cb, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 92db920fc5ab7254b8aea9a14d9579b5, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &1971231593
 GameObject:

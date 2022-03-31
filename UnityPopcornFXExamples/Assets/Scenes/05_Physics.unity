@@ -2854,7 +2854,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 4ef7065b8d5ff394290a8fef3c6b05de, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 1edfaac32421f79489a88ed425d1b008, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &1614203516
 GameObject:
@@ -3102,7 +3102,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 57317ae80c505a2438c0346a98a3d539, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a7a9edd31e491e345ae64e1c5ea66712, type: 2}
   m_FxName: Content/ContentExamples/32_Collisions_Sphere.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:

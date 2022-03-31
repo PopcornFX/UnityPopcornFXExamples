@@ -6666,7 +6666,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: f54b1e8f0fc55fb4297093b1dc0ad206, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6a9195873fcbb5e4c9cf7192f824b9b0, type: 2}
   m_FxName: Content/ContentExamples/00_Fountain.pkfx
 --- !u!1 &1467809212
 GameObject:
