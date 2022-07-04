@@ -1,5 +1,54 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2009407909748222579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9332af53283fa7a409e092be9b4ef6ee, type: 3}
+  m_Name: Content/ContentExamples/32_Collisions_Sphere.pkfx [0]
+  m_EditorClassIdentifier: 
+  m_SourceBlendPropertyName: _SrcBlendMode
+  m_DestinationBlendPropertyName: _DstBlendMode
+  m_MaskThresholdPropertyName: _CutOutAlpha
+  m_RotateUVsPropertyName: _RotateUVs
+  m_DiffuseMapPropertyName: _MainTex
+  m_DistortionMapPropertyName: _MainTex
+  m_EmissiveMapPropertyName: _EmissiveMap
+  m_EmissiveRampMapPropertyName: _EmissiveRampMap
+  m_AlphaRemapPropertyName: _AlphaMap
+  m_DiffuseRampMapPropertyName: _DiffuseRampMap
+  m_InvSoftnessDistancePropertyName: _InvSoftnessDistance
+  m_NormalMapPropertyName: _NormalMap
+  m_RoughMetalMapPropertyName: 
+  m_RoughnessPropertyName: _Roughness
+  m_MetalnessPropertyName: _Metalness
+  m_MeshDiffuseColorPropertyName: _BaseColor
+  m_MeshEmissiveColorPropertyName: _EmissiveColor
+  m_MeshAlphaCursorPropertyName: _AlphaCursor
+  m_MeshVATCursorPropertyName: _VATCursor
+  m_VATPositionMapPropertyName: _VATPositionMap
+  m_VATNormalMapPropertyName: _VATNormalMap
+  m_VATColorMapPropertyName: _VATColorMap
+  m_VATRotationMapPropertyName: _VATRotationMap
+  m_VATNumFramesPropertyName: _VATNumFrames
+  m_VATPackedDataPropertyName: _VATPackedData
+  m_VATColorPropertyName: 
+  m_VATBoundsPivotPropertyName: _VATPivot
+  m_VATNormalizedDataPropertyName: _VATNormalizedData
+  m_VATBoundsPositionPropertyName: _VATBounds
+  m_VATPadToPowerOf2PropertyName: _VATPadToPowerOf2
+  m_VATPaddedRatioPropertyName: _VATPaddedRatio
+  m_AssetVirtualPath: Content/ContentExamples/32_Collisions_Sphere.pkfx
+  m_BatchDescName: 'Mesh  Lighting Color Diffuse  Solid UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+    (none) [Lit: Library/PopcornFXCore/Materials/DefaultTextures/NMap_Flat.dds Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+    Shadows 0 1 0] (none) (none)'
+  m_InternalId: 0
+  m_CustomMaterial: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,27 +61,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7df53988962bc0d46bb2956705d97b5a, type: 3}
   m_Name: DefaultMaterialFactory
   m_EditorClassIdentifier: 
-  m_CustomMaterials: []
+  m_UseSortingLayers: 0
+  m_CustomMaterials:
+  - {fileID: -2009407909748222579}
   DistortionShader: {fileID: 4800000, guid: d148465e45222432f85a1d3e92677308, type: 3}
   BlurShader: {fileID: 4800000, guid: 0dc1a323808c03945a1db3a1cfacef2a, type: 3}
-  m_VertexBillboardingFallback: {fileID: 11400000, guid: 0b7d6fe980a45e646a51602b5365cf20, type: 2}
-  m_CPUBillboardingFallback: {fileID: 11400000, guid: 42c4cd98ec9966142ba5118051d18f5e, type: 2}
-  m_TransparentMeshFallback: {fileID: 11400000, guid: 3e76fa7382ea14b4387a542d8ce07547, type: 2}
-  m_OpaqueMeshFallback: {fileID: 11400000, guid: 2ed0a31622b4bde4fa94fcc3efb0fca3, type: 2}
-  m_MeshVATFluidFallback: {fileID: 11400000, guid: f54ce8df91b089e4caf42e962afc27fa, type: 2}
-  m_MeshVATSoftFallback: {fileID: 11400000, guid: dab802d84246cdb4885ed185ab4878b7, type: 2}
-  m_MeshVATRigidFallback: {fileID: 11400000, guid: aa12ac4816b3b1a4baa25f3f9c86cae7, type: 2}
-  m_VertexBillboardingOpaque: {fileID: 11400000, guid: d19a42aac00a18d4a8d50480e52271a7, type: 2}
-  m_CPUBillboardingOpaque: {fileID: 11400000, guid: 55f3db6beebff084da8144594da18bab, type: 2}
+  m_CPUBillboardingDefault: {fileID: 11400000, guid: 42c4cd98ec9966142ba5118051d18f5e, type: 2}
+  m_CPUBillboardingOpaqueDefault: {fileID: 11400000, guid: 55f3db6beebff084da8144594da18bab, type: 2}
+  m_VertexBillboardingDefault: {fileID: 11400000, guid: 0b7d6fe980a45e646a51602b5365cf20, type: 2}
+  m_VertexBillboardingOpaqueDefault: {fileID: 11400000, guid: d19a42aac00a18d4a8d50480e52271a7, type: 2}
+  m_TransparentMeshUnlitDefault: {fileID: 11400000, guid: 3e76fa7382ea14b4387a542d8ce07547, type: 2}
+  m_OpaqueMeshUnlitDefault: {fileID: 11400000, guid: 2ed0a31622b4bde4fa94fcc3efb0fca3, type: 2}
+  m_TransparentMeshLitDefault: {fileID: 0}
+  m_OpaqueMeshLitDefault: {fileID: 0}
+  m_CPUBillboardingDistortion: {fileID: 0}
+  m_VertexBillboardingDistortion: {fileID: 0}
   m_RenderFeatureBindings:
-  - {fileID: 11400000, guid: 0b7d6fe980a45e646a51602b5365cf20, type: 2}
   - {fileID: 11400000, guid: 42c4cd98ec9966142ba5118051d18f5e, type: 2}
+  - {fileID: 11400000, guid: 55f3db6beebff084da8144594da18bab, type: 2}
+  - {fileID: 11400000, guid: 0b7d6fe980a45e646a51602b5365cf20, type: 2}
+  - {fileID: 11400000, guid: d19a42aac00a18d4a8d50480e52271a7, type: 2}
   - {fileID: 11400000, guid: 3e76fa7382ea14b4387a542d8ce07547, type: 2}
   - {fileID: 11400000, guid: 2ed0a31622b4bde4fa94fcc3efb0fca3, type: 2}
   - {fileID: 11400000, guid: f54ce8df91b089e4caf42e962afc27fa, type: 2}
-  - {fileID: 11400000, guid: dab802d84246cdb4885ed185ab4878b7, type: 2}
   - {fileID: 11400000, guid: aa12ac4816b3b1a4baa25f3f9c86cae7, type: 2}
-  - {fileID: 11400000, guid: d19a42aac00a18d4a8d50480e52271a7, type: 2}
-  - {fileID: 11400000, guid: 55f3db6beebff084da8144594da18bab, type: 2}
+  - {fileID: 11400000, guid: dab802d84246cdb4885ed185ab4878b7, type: 2}
   m_RenderQueue: 3500
-  m_UseSortingLayers: 0

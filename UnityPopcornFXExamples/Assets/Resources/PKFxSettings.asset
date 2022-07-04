@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GeneralCategory: 1
   m_AssetCategory: 1
   m_EnableRaycastForCollisions: 0
-  m_PopcornPackFxPath: ../../V2_AfterEffect/release/application/Packs/ContentExamples/Unity
+  m_PopcornPackFxPath: 
   m_UnityPackFxPath: /PopcornFXAssets
   m_EnableForceDeterminism: 0
   m_EnablePopcornFXLogs: 1
@@ -27,6 +27,7 @@ MonoBehaviour:
   - PopcornFX_1
   - PopcornFX_2
   - PopcornFX_3
+  - PopcornFX_Disto
   m_AssetGUID:
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/73_SampleMesh.pkfx.asset
     m_New: fa66a39fa7f2cf94cb6a87463d99b814
@@ -119,58 +120,58 @@ MonoBehaviour:
     m_New: 21d2b5622c439c846a7fce8753fd8103
     m_Old: 21d2b5622c439c846a7fce8753fd8103
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/46_VertexAnimation.pkfx.asset
-    m_New: ac3cc753cecc6ff489acf51f4966f2ec
+    m_New: 9c2c855fc776ca54cb96390f79618ad7
     m_Old: 9c2c855fc776ca54cb96390f79618ad7
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/43_Renderers.pkfx.asset
-    m_New: 17d28fde9d4595646966f9b33c87474f
+    m_New: ffb7444f6e989e24282db90c99260151
     m_Old: ffb7444f6e989e24282db90c99260151
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/32_Collisions_Sphere.pkfx.asset
-    m_New: a7a9edd31e491e345ae64e1c5ea66712
+    m_New: 78a874980927b7a4ab492a8198a18467
     m_Old: 78a874980927b7a4ab492a8198a18467
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/31_Collisions.pkfx.asset
-    m_New: 1edfaac32421f79489a88ed425d1b008
+    m_New: 916643ad59049204686271e8b3382de3
     m_Old: 916643ad59049204686271e8b3382de3
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/23_VectorFieldSample.pkfx.asset
-    m_New: 5ddc0ee7b83b03849b621bfd390fe7bb
+    m_New: 6778541ddb321d2488d225957b99f15f
     m_Old: 6778541ddb321d2488d225957b99f15f
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/22_TextureSample.pkfx.asset
-    m_New: 55fa7cfbc8f7e5f49b76ce15f5544ff8
-    m_Old: c9b92aa66c39bb64caffb74fae433283
+    m_New: c9b92aa66c39bb64caffb74fae433283
+    m_Old: 611d674fe054f2b41984456e842ad7cd
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/21_MeshSample.pkfx.asset
-    m_New: 154e0ca4d92431845b8f18fa5df43402
+    m_New: 344d24f5b99811841af7df4233723e98
     m_Old: 344d24f5b99811841af7df4233723e98
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/20_CurveSample.pkfx.asset
-    m_New: d4f28b6ed6bc96a4aaae9f69cf2c9100
+    m_New: 99fdfc9f51fae9a4287ae838fb3854f1
     m_Old: 99fdfc9f51fae9a4287ae838fb3854f1
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/15_Attributes.pkfx.asset
-    m_New: 92db920fc5ab7254b8aea9a14d9579b5
-    m_Old: b1737cccfe13774409c9aec008aea0cb
+    m_New: b1737cccfe13774409c9aec008aea0cb
+    m_Old: f99abde184bd47d4682bd0dd474025c6
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/09_Prewarm.pkfx.asset
-    m_New: a6b9fd9bc0b83c84e812df0f4392fe77
+    m_New: ef8c6ca24172b2845967e44394fc1318
     m_Old: ef8c6ca24172b2845967e44394fc1318
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/08_ParticleEvents.pkfx.asset
-    m_New: 242c17657a3c0fc47a99cda2076de1f1
+    m_New: cde1b84c892c5e243b4f975632c6f260
     m_Old: cde1b84c892c5e243b4f975632c6f260
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/07_Localspace.pkfx.asset
-    m_New: 25cbeaf2d326af448a108cfeb0643b9c
-    m_Old: ff1288f0d13b3654cadf808cdff946e5
+    m_New: ff1288f0d13b3654cadf808cdff946e5
+    m_Old: b21a04edf9f7af74a895f3992bd7d87c
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/06_Burst.pkfx.asset
-    m_New: 94d590e93087f544485ad039cfab4506
+    m_New: 7500df5e114fd7e4f8562ab09c76e2ec
     m_Old: 7500df5e114fd7e4f8562ab09c76e2ec
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/05_BasicEmitter.pkfx.asset
-    m_New: 115382c8c7f9c7340aa04f80262d296e
+    m_New: 22292e5109b9bea49a06597743b09142
     m_Old: 22292e5109b9bea49a06597743b09142
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/00_Fountain.pkfx.asset
-    m_New: 6a9195873fcbb5e4c9cf7192f824b9b0
+    m_New: b5120df6f619c324692ad2f2a8b38a02
     m_Old: b5120df6f619c324692ad2f2a8b38a02
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/25_TextSample.pkfx.asset
-    m_New: ed4a885f97970804bb3061aa6ac80f5b
+    m_New: e71a4d8d2655a5040aa40226ffb4cf8b
     m_Old: e71a4d8d2655a5040aa40226ffb4cf8b
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/24_AnimTrackSample.pkfx.asset
-    m_New: bf4a981c5d6faeb4a8af1d769fd03c36
+    m_New: 791dbc67200b9b747b81c72d2fd23e83
     m_Old: 791dbc67200b9b747b81c72d2fd23e83
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/08_ParticleEvents_SpawnedMesh.pkfx.asset
-    m_New: f1861bb7ef81c5c42b2ab7e72d69c7cf
+    m_New: afb749d184fe1124abacba2cd3fd799a
     m_Old: afb749d184fe1124abacba2cd3fd799a
   m_RenderingCategory: 1
   m_DebugEffectsBoundingBoxes: 0
@@ -190,8 +191,8 @@ MonoBehaviour:
   m_MeshesDefaultSize:
   - m_GeneratedName: Billboard  Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
       (none) (none) (none) (none) 1
-    m_DefaultVertexBufferSize: 36036
-    m_DefaultIndexBufferSize: 54057
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
     m_StaticWorldBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 50, y: 50, z: 50}
@@ -217,24 +218,62 @@ MonoBehaviour:
     m_StaticWorldBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 50, y: 50, z: 50}
-  - m_GeneratedName: Billboard  Color Diffuse  AlphaBlend UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
-      (none) (none) (none) (none) 1
-    m_DefaultVertexBufferSize: 6006
-    m_DefaultIndexBufferSize: 9012
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 36036
+    m_DefaultIndexBufferSize: 54057
     m_StaticWorldBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 50, y: 50, z: 50}
   - m_GeneratedName: Billboard  Color Diffuse  Solid UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
-      (none) (none) (none) (none) 1
+      (none) (none) (none) (none) (none) (none) 1
     m_DefaultVertexBufferSize: 384
     m_DefaultIndexBufferSize: 1155
     m_StaticWorldBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 50, y: 50, z: 50}
   - m_GeneratedName: Billboard  Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
-      (none) (none) (none) (none) 1
+      (none) (none) (none) (none) (none) (none) 1
     m_DefaultVertexBufferSize: 54054
     m_DefaultIndexBufferSize: 108111
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  AlphaBlend UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 6006
+    m_DefaultIndexBufferSize: 9012
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs Content/ContentExamples/Textures/FX/TextAtlas.dds
+      (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Ribbon  Atlas Color Diffuse  Additive UVs Library/Persistant
+      Studios/Common/Textures/Debug.png (none) (none) (none) (none) (none) (none)
+      1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: 'Triangle  Lighting Color Diffuse CastShadow  Solid UVs Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) [Lit: Library/PopcornFXCore/Materials/DefaultTextures/NMap_Flat.dds
+      Library/PopcornFXCore/Materials/DefaultTextures/White.dds noShadows 0.5 1 0]
+      (none) (none) (none) (none) 1'
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
     m_StaticWorldBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 50, y: 50, z: 50}

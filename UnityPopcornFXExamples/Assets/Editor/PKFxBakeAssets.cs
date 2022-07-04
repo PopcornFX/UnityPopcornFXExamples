@@ -81,7 +81,7 @@ public static class AutomatedBaker
 		Debug.Log(string.Format("ExecuteBake start"));
 		string[] args = System.Environment.GetCommandLineArgs();
 
-		List<string> effectsUsed = PKFxMenus.GetFxsOnAllScenesAndPrefabs();
+		List<string> effectsUsed = PKFxMenus.GetFxsOnAllScenesAndPrefabs("Assets/");
 
 		if (effectsUsed == null)
 		{
@@ -110,7 +110,7 @@ public static class AutomatedBaker
 			Debug.Log("AssetCount left to bake s:" + start + " c:"+ AssetCount);
 		}
 		Debug.Log(string.Format("UpdateFxsOnAllScenesAndPrefabs start"));
-		PKFxMenus.UpdateFxsOnAllScenesAndPrefabs();
+		PKFxMenus.UpdateFxsOnAllScenesAndPrefabs("Assets/");
 		Debug.Log(string.Format("ExecuteBake end"));
 
 		yield return null;

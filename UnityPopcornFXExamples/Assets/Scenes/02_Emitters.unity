@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -292,8 +292,8 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: 0
-        f1: 0
+        i1: 1360086158
+        f1: 3.8995026e+10
       y:
         i1: 0
         f1: 0
@@ -305,11 +305,11 @@ MonoBehaviour:
         f1: 0
     m_MaxValue:
       x:
-        i1: 361995520
-        f1: 5.962053e-26
+        i1: 1359719216
+        f1: 3.749203e+10
       y:
-        i1: 32763
-        f1: 4.5911e-41
+        i1: 32764
+        f1: 4.5912e-41
       z:
         i1: 0
         f1: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 1478962002
+  m_FxAttributesDescHash: 2111300587
   m_FxAttributesStartValues:
   - i1: 255
     f1: 3.57e-43
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25cbeaf2d326af448a108cfeb0643b9c, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 8dd173a3b0ffe3b4b96d9c16ad6cc314, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!54 &142765767
 Rigidbody:
@@ -1814,8 +1814,8 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: 0
-        f1: 0
+        i1: 1360086158
+        f1: 3.8995026e+10
       y:
         i1: 0
         f1: 0
@@ -1827,11 +1827,11 @@ MonoBehaviour:
         f1: 0
     m_MaxValue:
       x:
-        i1: 361995520
-        f1: 5.962053e-26
+        i1: 1359719216
+        f1: 3.749203e+10
       y:
-        i1: 32763
-        f1: 4.5911e-41
+        i1: 32764
+        f1: 4.5912e-41
       z:
         i1: 0
         f1: 0
@@ -1839,7 +1839,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 1478962002
+  m_FxAttributesDescHash: 2111300587
   m_FxAttributesStartValues:
   - i1: 0
     f1: 0
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25cbeaf2d326af448a108cfeb0643b9c, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 8dd173a3b0ffe3b4b96d9c16ad6cc314, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!1 &431177135
 GameObject:
@@ -4695,7 +4695,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 115382c8c7f9c7340aa04f80262d296e, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 78e2955d28e70a74b928c035650173b1, type: 2}
   m_FxName: Content/ContentExamples/05_BasicEmitter.pkfx
 --- !u!21 &1399085822
 Material:
@@ -5339,7 +5339,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a6b9fd9bc0b83c84e812df0f4392fe77, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a9cc1b2d55166374baa8d1ea1059fc60, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -5466,7 +5466,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a6b9fd9bc0b83c84e812df0f4392fe77, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a9cc1b2d55166374baa8d1ea1059fc60, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1 &1843419912
 GameObject:
@@ -5542,7 +5542,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 242c17657a3c0fc47a99cda2076de1f1, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: ae8184b39f11f274d846dc8d18cef0be, type: 2}
   m_FxName: Content/ContentExamples/08_ParticleEvents.pkfx
 --- !u!1 &1845072580
 GameObject:
@@ -5599,7 +5599,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a6b9fd9bc0b83c84e812df0f4392fe77, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a9cc1b2d55166374baa8d1ea1059fc60, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!21 &1857646279
 Material:
