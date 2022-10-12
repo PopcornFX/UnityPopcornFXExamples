@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
+  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -292,8 +292,8 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: 1360086158
-        f1: 3.8995026e+10
+        i1: 0
+        f1: 0
       y:
         i1: 0
         f1: 0
@@ -305,11 +305,11 @@ MonoBehaviour:
         f1: 0
     m_MaxValue:
       x:
-        i1: 1359719216
-        f1: 3.749203e+10
+        i1: -1456246816
+        f1: -3.984302e-14
       y:
-        i1: 32764
-        f1: 4.5912e-41
+        i1: 32761
+        f1: 4.5908e-41
       z:
         i1: 0
         f1: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 2111300587
+  m_FxAttributesDescHash: -381649925
   m_FxAttributesStartValues:
   - i1: 255
     f1: 3.57e-43
@@ -1814,8 +1814,8 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: 1360086158
-        f1: 3.8995026e+10
+        i1: 0
+        f1: 0
       y:
         i1: 0
         f1: 0
@@ -1827,11 +1827,11 @@ MonoBehaviour:
         f1: 0
     m_MaxValue:
       x:
-        i1: 1359719216
-        f1: 3.749203e+10
+        i1: -1456246816
+        f1: -3.984302e-14
       y:
-        i1: 32764
-        f1: 4.5912e-41
+        i1: 32761
+        f1: 4.5908e-41
       z:
         i1: 0
         f1: 0
@@ -1839,7 +1839,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 2111300587
+  m_FxAttributesDescHash: -381649925
   m_FxAttributesStartValues:
   - i1: 0
     f1: 0
