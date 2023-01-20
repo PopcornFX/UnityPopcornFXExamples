@@ -5643,12 +5643,12 @@ MonoBehaviour:
   m_UseSceneMesh: 0
   m_SceneMesh: {fileID: 0}
   m_TimeMultiplier: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
-  m_BlurFactor: 0.2
   m_Cameras: []
   m_PreloadEffect: []
-  m_MaxCameraSupport: 2
+  m_OutputPkmmPath: Meshes/UnityScene.pkmm
+  m_GameObjectsToSearch: []
+  m_MeshGameObjects: []
+  m_CameraLayers: 1f0000001e000000
 --- !u!114 &2073892009
 MonoBehaviour:
   m_ObjectHideFlags: 0

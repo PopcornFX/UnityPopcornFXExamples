@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2854,7 +2854,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 178596ca56fe2d84d8cac2d5b9d4ee28, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c80450e713c0c0340b60fbee91c1149a, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &1614203516
 GameObject:
@@ -3102,7 +3102,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a490909a26f800249a77b5ceae372ee8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 1fa011954598bac4a9ba6b167a673259, type: 2}
   m_FxName: Content/ContentExamples/32_Collisions_Sphere.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -3732,7 +3732,6 @@ GameObject:
   - component: {fileID: 2073892010}
   - component: {fileID: 2073892009}
   - component: {fileID: 2073892008}
-  - component: {fileID: 2073892011}
   m_Layer: 0
   m_Name: PKFxRenderingManager
   m_TagString: Untagged
@@ -3755,12 +3754,12 @@ MonoBehaviour:
   m_UseSceneMesh: 1
   m_SceneMesh: {fileID: 5172641735928791091, guid: 8b78d5767f6c0f14697e26a645f851be, type: 3}
   m_TimeMultiplier: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
-  m_BlurFactor: 0.2
   m_Cameras: []
   m_PreloadEffect: []
-  m_MaxCameraSupport: 2
+  m_OutputPkmmPath: Meshes/UnityScene.pkmm
+  m_GameObjectsToSearch: []
+  m_MeshGameObjects: []
+  m_CameraLayers: 1f0000001e000000
 --- !u!114 &2073892009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3788,38 +3787,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2073892011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073892007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f2495d45a694e3ba75c7d9e08a9963, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OutputPkmmPath: Meshes/05_Physics.pkmm
-  m_GameObjectsToSearch:
-  - {fileID: 1467809212}
-  m_MeshGameObjects:
-  - {fileID: 1142963254}
-  - {fileID: 266470292}
-  - {fileID: 631088156}
-  - {fileID: 1379068165}
-  - {fileID: 2146220439}
-  - {fileID: 930416363}
-  - {fileID: 1199314137}
-  - {fileID: 1390245251}
-  - {fileID: 1883579096}
-  - {fileID: 774210265}
-  - {fileID: 1548897135}
-  - {fileID: 1353014347}
-  - {fileID: 1614203516}
-  - {fileID: 2003593741}
-  - {fileID: 2059464265}
-  - {fileID: 560927079}
 --- !u!1 &2146220439
 GameObject:
   m_ObjectHideFlags: 0

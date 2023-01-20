@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -176,9 +176,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -219,9 +221,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
-    m_Description: 
+    m_Description: Applies a multiplication factor on the SpawnCount
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -262,9 +266,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
-    m_Description: 
+    m_Description: Diffuse color, multiplied with the diffuse map color
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -304,8 +310,98 @@ MonoBehaviour:
       w:
         i1: 2139095039
         f1: 3.4028235e+38
+  - m_Type: 1
+    m_DropMode: 0
+    m_MinMaxFlag: 0
+    m_Name: EnableTrail
+    m_Description: 
+    m_DropNameList: 
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: -8388609
+        f1: -3.4028235e+38
+      y:
+        i1: -8388609
+        f1: -3.4028235e+38
+      z:
+        i1: -8388609
+        f1: -3.4028235e+38
+      w:
+        i1: -8388609
+        f1: -3.4028235e+38
+    m_MaxValue:
+      x:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      y:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      z:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      w:
+        i1: 2139095039
+        f1: 3.4028235e+38
+  - m_Type: 25
+    m_DropMode: 1
+    m_MinMaxFlag: 0
+    m_Name: TrailType
+    m_Description: 
+    m_DropNameList: Billboards|Ribbons|
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MaxValue:
+      x:
+        i1: 2143289344
+        f1: NaN
+      y:
+        i1: 2143289344
+        f1: NaN
+      z:
+        i1: 2143289344
+        f1: NaN
+      w:
+        i1: 2143289344
+        f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -1134757224
+  m_FxAttributesDescHash: -1838184316
   m_FxAttributesStartValues:
   - i1: 1056964608
     f1: 0.5
@@ -331,10 +427,26 @@ MonoBehaviour:
     f1: 1
   - i1: 1065353216
     f1: 1
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 491496c25f2a76a40ba769ac263c3a55, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b0a1352c07abb2249bf51308e7f76f4f, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &99682312
 GameObject:
@@ -4173,9 +4285,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -4216,9 +4330,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
-    m_Description: 
+    m_Description: Applies a multiplication factor on the SpawnCount
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -4259,9 +4375,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
-    m_Description: 
+    m_Description: Diffuse color, multiplied with the diffuse map color
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -4301,8 +4419,98 @@ MonoBehaviour:
       w:
         i1: 2139095039
         f1: 3.4028235e+38
+  - m_Type: 1
+    m_DropMode: 0
+    m_MinMaxFlag: 0
+    m_Name: EnableTrail
+    m_Description: 
+    m_DropNameList: 
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: -8388609
+        f1: -3.4028235e+38
+      y:
+        i1: -8388609
+        f1: -3.4028235e+38
+      z:
+        i1: -8388609
+        f1: -3.4028235e+38
+      w:
+        i1: -8388609
+        f1: -3.4028235e+38
+    m_MaxValue:
+      x:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      y:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      z:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      w:
+        i1: 2139095039
+        f1: 3.4028235e+38
+  - m_Type: 25
+    m_DropMode: 1
+    m_MinMaxFlag: 0
+    m_Name: TrailType
+    m_Description: 
+    m_DropNameList: Billboards|Ribbons|
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MaxValue:
+      x:
+        i1: 2143289344
+        f1: NaN
+      y:
+        i1: 2143289344
+        f1: NaN
+      z:
+        i1: 2143289344
+        f1: NaN
+      w:
+        i1: 2143289344
+        f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -1134757224
+  m_FxAttributesDescHash: -1838184316
   m_FxAttributesStartValues:
   - i1: 1056964608
     f1: 0.5
@@ -4328,10 +4536,26 @@ MonoBehaviour:
     f1: 1
   - i1: 1065353216
     f1: 1
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 491496c25f2a76a40ba769ac263c3a55, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b0a1352c07abb2249bf51308e7f76f4f, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!114 &1506116342
 MonoBehaviour:
@@ -5544,9 +5768,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -5587,9 +5813,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
-    m_Description: 
+    m_Description: Applies a multiplication factor on the SpawnCount
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -5630,9 +5858,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
-    m_Description: 
+    m_Description: Diffuse color, multiplied with the diffuse map color
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -5672,8 +5902,98 @@ MonoBehaviour:
       w:
         i1: 2139095039
         f1: 3.4028235e+38
+  - m_Type: 1
+    m_DropMode: 0
+    m_MinMaxFlag: 0
+    m_Name: EnableTrail
+    m_Description: 
+    m_DropNameList: 
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: -8388609
+        f1: -3.4028235e+38
+      y:
+        i1: -8388609
+        f1: -3.4028235e+38
+      z:
+        i1: -8388609
+        f1: -3.4028235e+38
+      w:
+        i1: -8388609
+        f1: -3.4028235e+38
+    m_MaxValue:
+      x:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      y:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      z:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      w:
+        i1: 2139095039
+        f1: 3.4028235e+38
+  - m_Type: 25
+    m_DropMode: 1
+    m_MinMaxFlag: 0
+    m_Name: TrailType
+    m_Description: 
+    m_DropNameList: Billboards|Ribbons|
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MaxValue:
+      x:
+        i1: 2143289344
+        f1: NaN
+      y:
+        i1: 2143289344
+        f1: NaN
+      z:
+        i1: 2143289344
+        f1: NaN
+      w:
+        i1: 2143289344
+        f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -1134757224
+  m_FxAttributesDescHash: -1838184316
   m_FxAttributesStartValues:
   - i1: 1065353216
     f1: 1
@@ -5699,10 +6019,26 @@ MonoBehaviour:
     f1: 1
   - i1: 1065353216
     f1: 1
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 491496c25f2a76a40ba769ac263c3a55, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b0a1352c07abb2249bf51308e7f76f4f, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &1915311006
 GameObject:
@@ -5947,9 +6283,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -5990,9 +6328,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
-    m_Description: 
+    m_Description: Applies a multiplication factor on the SpawnCount
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -6033,9 +6373,11 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
-    m_Description: 
+    m_Description: Diffuse color, multiplied with the diffuse map color
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 1065353216
@@ -6075,8 +6417,98 @@ MonoBehaviour:
       w:
         i1: 2139095039
         f1: 3.4028235e+38
+  - m_Type: 1
+    m_DropMode: 0
+    m_MinMaxFlag: 0
+    m_Name: EnableTrail
+    m_Description: 
+    m_DropNameList: 
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: -8388609
+        f1: -3.4028235e+38
+      y:
+        i1: -8388609
+        f1: -3.4028235e+38
+      z:
+        i1: -8388609
+        f1: -3.4028235e+38
+      w:
+        i1: -8388609
+        f1: -3.4028235e+38
+    m_MaxValue:
+      x:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      y:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      z:
+        i1: 2139095039
+        f1: 3.4028235e+38
+      w:
+        i1: 2139095039
+        f1: 3.4028235e+38
+  - m_Type: 25
+    m_DropMode: 1
+    m_MinMaxFlag: 0
+    m_Name: TrailType
+    m_Description: 
+    m_DropNameList: Billboards|Ribbons|
+    m_DefaultValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MinValue:
+      x:
+        i1: 0
+        f1: 0
+      y:
+        i1: 0
+        f1: 0
+      z:
+        i1: 0
+        f1: 0
+      w:
+        i1: 0
+        f1: 0
+    m_MaxValue:
+      x:
+        i1: 2143289344
+        f1: NaN
+      y:
+        i1: 2143289344
+        f1: NaN
+      z:
+        i1: 2143289344
+        f1: NaN
+      w:
+        i1: 2143289344
+        f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -1134757224
+  m_FxAttributesDescHash: -1838184316
   m_FxAttributesStartValues:
   - i1: 1073741824
     f1: 2
@@ -6102,10 +6534,26 @@ MonoBehaviour:
     f1: 0.1
   - i1: 1065353216
     f1: 1
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
+  - i1: 0
+    f1: 0
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 491496c25f2a76a40ba769ac263c3a55, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b0a1352c07abb2249bf51308e7f76f4f, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &1971231593
 GameObject:
@@ -6342,12 +6790,12 @@ MonoBehaviour:
   m_UseSceneMesh: 0
   m_SceneMesh: {fileID: 0}
   m_TimeMultiplier: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
-  m_BlurFactor: 0.2
   m_Cameras: []
   m_PreloadEffect: []
-  m_MaxCameraSupport: 2
+  m_OutputPkmmPath: Meshes/UnityScene.pkmm
+  m_GameObjectsToSearch: []
+  m_MeshGameObjects: []
+  m_CameraLayers: 1f0000001e000000
 --- !u!114 &2073892009
 MonoBehaviour:
   m_ObjectHideFlags: 0

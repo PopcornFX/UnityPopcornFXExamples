@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 597e1f79533c27d3d4f29bd3358ac4d7
   m_Shader: {fileID: 4800000, guid: ad0ae35fb4dc10e4e9e4847dce76e721, type: 3}
-  m_ShaderKeywords: PK_HAS_EMISSIVE_NONE
+  m_ShaderKeywords: PK_HAS_EMISSIVE_NONE PK_HAS_EMISSIVE_NONE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4ead1427a4f92c5488b39563466f39f2, type: 3}
+        m_Texture: {fileID: 2800000, guid: edaf42553c1ede4498eb7e3c6b39ca28, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

@@ -2976,7 +2976,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028516242}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
   m_Name: 
@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 846f041ac690c7c45aa423784ab93ba3, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: ca38aab048704ab43ad24797cf447f76, type: 2}
   m_FxName: Content/ContentExamples/43_Renderers.pkfx
 --- !u!1 &1036906708
 GameObject:
@@ -4672,7 +4672,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 1d0df83b54e8d134aa58795aa4401515, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 21cbcc7c8c33c6849994787fdb52c207, type: 2}
   m_FxName: Content/ContentExamples/00_Fountain.pkfx
 --- !u!1 &1844209708
 GameObject:
@@ -5599,12 +5599,12 @@ MonoBehaviour:
   m_UseSceneMesh: 0
   m_SceneMesh: {fileID: 0}
   m_TimeMultiplier: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
-  m_BlurFactor: 0.2
   m_Cameras: []
   m_PreloadEffect: []
-  m_MaxCameraSupport: 2
+  m_OutputPkmmPath: Meshes/UnityScene.pkmm
+  m_GameObjectsToSearch: []
+  m_MeshGameObjects: []
+  m_CameraLayers: 1f0000001e000000
 --- !u!114 &2073892009
 MonoBehaviour:
   m_ObjectHideFlags: 0

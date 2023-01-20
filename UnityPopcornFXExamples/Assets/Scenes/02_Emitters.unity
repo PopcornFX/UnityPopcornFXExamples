@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -274,9 +274,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 1
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Localspace
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 0
@@ -305,11 +307,11 @@ MonoBehaviour:
         f1: 0
     m_MaxValue:
       x:
-        i1: -1456246816
-        f1: -3.984302e-14
+        i1: 0
+        f1: 0
       y:
-        i1: 32761
-        f1: 4.5908e-41
+        i1: 0
+        f1: 0
       z:
         i1: 0
         f1: 0
@@ -317,7 +319,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -381649925
+  m_FxAttributesDescHash: -907588988
   m_FxAttributesStartValues:
   - i1: 255
     f1: 3.57e-43
@@ -330,7 +332,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 8dd173a3b0ffe3b4b96d9c16ad6cc314, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 612bc9e9da3d44d4087ae4f5bffb82ec, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!54 &142765767
 Rigidbody:
@@ -1796,9 +1798,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 1
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Localspace
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 0
@@ -1827,11 +1831,11 @@ MonoBehaviour:
         f1: 0
     m_MaxValue:
       x:
-        i1: -1456246816
-        f1: -3.984302e-14
+        i1: 0
+        f1: 0
       y:
-        i1: 32761
-        f1: 4.5908e-41
+        i1: 0
+        f1: 0
       z:
         i1: 0
         f1: 0
@@ -1839,7 +1843,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -381649925
+  m_FxAttributesDescHash: -907588988
   m_FxAttributesStartValues:
   - i1: 0
     f1: 0
@@ -1852,7 +1856,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 8dd173a3b0ffe3b4b96d9c16ad6cc314, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 612bc9e9da3d44d4087ae4f5bffb82ec, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!1 &431177135
 GameObject:
@@ -4695,7 +4699,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 78e2955d28e70a74b928c035650173b1, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 0e2f3c1b704de6945990744aa9399b01, type: 2}
   m_FxName: Content/ContentExamples/05_BasicEmitter.pkfx
 --- !u!21 &1399085822
 Material:
@@ -5339,7 +5343,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a9cc1b2d55166374baa8d1ea1059fc60, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 0f769196651c5ad44aaaaaa3dec492f4, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -5466,7 +5470,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a9cc1b2d55166374baa8d1ea1059fc60, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 0f769196651c5ad44aaaaaa3dec492f4, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1 &1843419912
 GameObject:
@@ -5542,7 +5546,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ae8184b39f11f274d846dc8d18cef0be, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6f9c5dc26b3ca47458ca9d086a07a640, type: 2}
   m_FxName: Content/ContentExamples/08_ParticleEvents.pkfx
 --- !u!1 &1845072580
 GameObject:
@@ -5599,7 +5603,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a9cc1b2d55166374baa8d1ea1059fc60, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 0f769196651c5ad44aaaaaa3dec492f4, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!21 &1857646279
 Material:
@@ -6588,7 +6592,6 @@ GameObject:
   - component: {fileID: 2073892010}
   - component: {fileID: 2073892009}
   - component: {fileID: 2073892008}
-  - component: {fileID: 2073892011}
   m_Layer: 0
   m_Name: PKFxRenderingManager
   m_TagString: Untagged
@@ -6611,12 +6614,12 @@ MonoBehaviour:
   m_UseSceneMesh: 1
   m_SceneMesh: {fileID: 1182038853624410110, guid: 5684ba706d40f5d47a1e139d613e8e30, type: 3}
   m_TimeMultiplier: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
-  m_BlurFactor: 0.2
   m_Cameras: []
   m_PreloadEffect: []
-  m_MaxCameraSupport: 2
+  m_OutputPkmmPath: Meshes/UnityScene.pkmm
+  m_GameObjectsToSearch: []
+  m_MeshGameObjects: []
+  m_CameraLayers: 1f0000001e000000
 --- !u!114 &2073892009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6644,43 +6647,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2073892011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073892007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f2495d45a694e3ba75c7d9e08a9963, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OutputPkmmPath: Meshes/02_Emitters.pkmm
-  m_GameObjectsToSearch:
-  - {fileID: 1467809212}
-  m_MeshGameObjects:
-  - {fileID: 278618623}
-  - {fileID: 1030293780}
-  - {fileID: 1680580387}
-  - {fileID: 964415850}
-  - {fileID: 389957}
-  - {fileID: 159194979}
-  - {fileID: 1160297909}
-  - {fileID: 775239122}
-  - {fileID: 370795255}
-  - {fileID: 593886824}
-  - {fileID: 504327415}
-  - {fileID: 1981546539}
-  - {fileID: 569524371}
-  - {fileID: 1949670300}
-  - {fileID: 1523650366}
-  - {fileID: 424563684}
-  - {fileID: 142765764}
-  - {fileID: 701676182}
-  - {fileID: 782440942}
-  - {fileID: 2065732155}
-  - {fileID: 1664974432}
 --- !u!21 &2076075990
 Material:
   serializedVersion: 6

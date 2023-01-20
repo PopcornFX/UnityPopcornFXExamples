@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1991,7 +1991,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25d89a0baeeac3c44b8809d548da7e76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &304194423
 GameObject:
@@ -2520,7 +2520,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25d89a0baeeac3c44b8809d548da7e76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!21 &359871287
 Material:
@@ -3323,7 +3323,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25d89a0baeeac3c44b8809d548da7e76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &543486065
 GameObject:
@@ -4664,7 +4664,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: -833919394
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 19b0f327da30bad41bfb50afe1d21931, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 5cfc44c09749e6c43bb301ed65247a79, type: 2}
   m_FxName: Content/ContentExamples/20_CurveSample.pkfx
 --- !u!1 &786793264
 GameObject:
@@ -7664,7 +7664,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 542284033
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: b3451f8fb2053c0499560635d9e36c9b, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c82f7690718162a43921d7a73d442cb9, type: 2}
   m_FxName: Content/ContentExamples/22_TextureSample.pkfx
 --- !u!114 &1353326819
 MonoBehaviour:
@@ -7873,7 +7873,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25d89a0baeeac3c44b8809d548da7e76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &1380856942
 GameObject:
@@ -8560,9 +8560,11 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 25
+    m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: CharsPerLine
     m_Description: 
+    m_DropNameList: 
     m_DefaultValue:
       x:
         i1: 40
@@ -8603,7 +8605,7 @@ MonoBehaviour:
         i1: 2143289344
         f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 1778655537
+  m_FxAttributesDescHash: -1262177330
   m_FxAttributesStartValues:
   - i1: 40
     f1: 5.6e-44
@@ -8648,7 +8650,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: -466701125
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 785645d0b44f4b740b2305111c6b1a55, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: d990a3ccffb6f3740b16284368dca491, type: 2}
   m_FxName: Content/ContentExamples/25_TextSample.pkfx
 --- !u!114 &1530823394
 MonoBehaviour:
@@ -9905,7 +9907,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 1
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25d89a0baeeac3c44b8809d548da7e76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!114 &1819632754
 MonoBehaviour:
@@ -11643,7 +11645,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 1
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 25d89a0baeeac3c44b8809d548da7e76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!21 &2031620688
 Material:
@@ -12023,12 +12025,12 @@ MonoBehaviour:
   m_UseSceneMesh: 0
   m_SceneMesh: {fileID: 0}
   m_TimeMultiplier: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
-  m_BlurFactor: 0.2
   m_Cameras: []
   m_PreloadEffect: []
-  m_MaxCameraSupport: 2
+  m_OutputPkmmPath: Meshes/UnityScene.pkmm
+  m_GameObjectsToSearch: []
+  m_MeshGameObjects: []
+  m_CameraLayers: 1f0000001e000000
 --- !u!114 &2073892009
 MonoBehaviour:
   m_ObjectHideFlags: 0
