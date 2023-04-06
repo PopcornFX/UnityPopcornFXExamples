@@ -313,6 +313,63 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &261532096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261532097}
+  - component: {fileID: 261532098}
+  m_Layer: 0
+  m_Name: Fx (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261532097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261532096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.321, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597229088}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261532098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261532096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayOnStart: 1
+  m_TriggerAndForget: 0
+  m_KillEffectOnDestroy: 0
+  m_PreWarm: 0
+  m_Events: []
+  m_FxAttributesDesc: []
+  m_EventDescsHash: 371857150
+  m_FxAttributesDescHash: 371857150
+  m_FxAttributesStartValues: []
+  m_FxSamplersList: []
+  m_FxSamplersDescHash: 371857150
+  m_BoundFx: {fileID: 0}
+  m_FxAsset: {fileID: 11400000, guid: efce5b64fff54384896d9115fc537179, type: 2}
+  m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &266470292
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +467,120 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266470292}
   m_Mesh: {fileID: 2706281413138888404, guid: e9279bae40ba6744595b3537665f5260, type: 3}
+--- !u!1 &383944355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 383944356}
+  - component: {fileID: 383944357}
+  m_Layer: 0
+  m_Name: Fx (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &383944356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383944355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.321, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597229088}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383944357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383944355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayOnStart: 1
+  m_TriggerAndForget: 0
+  m_KillEffectOnDestroy: 0
+  m_PreWarm: 0
+  m_Events: []
+  m_FxAttributesDesc: []
+  m_EventDescsHash: 371857150
+  m_FxAttributesDescHash: 371857150
+  m_FxAttributesStartValues: []
+  m_FxSamplersList: []
+  m_FxSamplersDescHash: 371857150
+  m_BoundFx: {fileID: 0}
+  m_FxAsset: {fileID: 11400000, guid: efce5b64fff54384896d9115fc537179, type: 2}
+  m_FxName: Content/ContentExamples/31_Collisions.pkfx
+--- !u!1 &531295620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 531295621}
+  - component: {fileID: 531295622}
+  m_Layer: 0
+  m_Name: Fx (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &531295621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531295620}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.321, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597229088}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &531295622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531295620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayOnStart: 1
+  m_TriggerAndForget: 0
+  m_KillEffectOnDestroy: 0
+  m_PreWarm: 0
+  m_Events: []
+  m_FxAttributesDesc: []
+  m_EventDescsHash: 371857150
+  m_FxAttributesDescHash: 371857150
+  m_FxAttributesStartValues: []
+  m_FxSamplersList: []
+  m_FxSamplersDescHash: 371857150
+  m_BoundFx: {fileID: 0}
+  m_FxAsset: {fileID: 11400000, guid: efce5b64fff54384896d9115fc537179, type: 2}
+  m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &560927079
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +1003,11 @@ Transform:
   - {fileID: 774210266}
   - {fileID: 1548897136}
   - {fileID: 211734670}
+  - {fileID: 261532097}
+  - {fileID: 659890936}
+  - {fileID: 1971633588}
+  - {fileID: 531295621}
+  - {fileID: 383944356}
   m_Father: {fileID: 1163966328}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1022,6 +1198,63 @@ Transform:
   m_Father: {fileID: 1467809213}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &659890935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 659890936}
+  - component: {fileID: 659890937}
+  m_Layer: 0
+  m_Name: Fx (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &659890936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659890935}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.321, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597229088}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &659890937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659890935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayOnStart: 1
+  m_TriggerAndForget: 0
+  m_KillEffectOnDestroy: 0
+  m_PreWarm: 0
+  m_Events: []
+  m_FxAttributesDesc: []
+  m_EventDescsHash: 371857150
+  m_FxAttributesDescHash: 371857150
+  m_FxAttributesStartValues: []
+  m_FxSamplersList: []
+  m_FxSamplersDescHash: 371857150
+  m_BoundFx: {fileID: 0}
+  m_FxAsset: {fileID: 11400000, guid: efce5b64fff54384896d9115fc537179, type: 2}
+  m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &774210265
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,7 +3087,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: c80450e713c0c0340b60fbee91c1149a, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: efce5b64fff54384896d9115fc537179, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &1614203516
 GameObject:
@@ -3102,7 +3335,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 1fa011954598bac4a9ba6b167a673259, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: a593c62bbfc6c5248803908e0ade2a80, type: 2}
   m_FxName: Content/ContentExamples/32_Collisions_Sphere.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -3323,6 +3556,63 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!1 &1971633587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971633588}
+  - component: {fileID: 1971633589}
+  m_Layer: 0
+  m_Name: Fx (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1971633588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971633587}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.321, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 597229088}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971633589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971633587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlayOnStart: 1
+  m_TriggerAndForget: 0
+  m_KillEffectOnDestroy: 0
+  m_PreWarm: 0
+  m_Events: []
+  m_FxAttributesDesc: []
+  m_EventDescsHash: 371857150
+  m_FxAttributesDescHash: 371857150
+  m_FxAttributesStartValues: []
+  m_FxSamplersList: []
+  m_FxSamplersDescHash: 371857150
+  m_BoundFx: {fileID: 0}
+  m_FxAsset: {fileID: 11400000, guid: efce5b64fff54384896d9115fc537179, type: 2}
+  m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &1993170018
 GameObject:
   m_ObjectHideFlags: 0

@@ -1991,7 +1991,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c2958ed83edda2b4e8f88d4b0d386162, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &304194423
 GameObject:
@@ -2520,7 +2520,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c2958ed83edda2b4e8f88d4b0d386162, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!21 &359871287
 Material:
@@ -3323,7 +3323,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c2958ed83edda2b4e8f88d4b0d386162, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &543486065
 GameObject:
@@ -4664,7 +4664,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: -833919394
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 5cfc44c09749e6c43bb301ed65247a79, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: bb92c10def9b9ab4ebc28f0cef71d0c4, type: 2}
   m_FxName: Content/ContentExamples/20_CurveSample.pkfx
 --- !u!1 &786793264
 GameObject:
@@ -7664,7 +7664,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 542284033
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: c82f7690718162a43921d7a73d442cb9, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 293a2eb83e9c1b14f82a64c405f5191d, type: 2}
   m_FxName: Content/ContentExamples/22_TextureSample.pkfx
 --- !u!114 &1353326819
 MonoBehaviour:
@@ -7873,7 +7873,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c2958ed83edda2b4e8f88d4b0d386162, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!1 &1380856942
 GameObject:
@@ -8567,8 +8567,8 @@ MonoBehaviour:
     m_DropNameList: 
     m_DefaultValue:
       x:
-        i1: 40
-        f1: 5.6e-44
+        i1: 37
+        f1: 5.2e-44
       y:
         i1: 0
         f1: 0
@@ -8605,7 +8605,7 @@ MonoBehaviour:
         i1: 2143289344
         f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -1262177330
+  m_FxAttributesDescHash: -1015088022
   m_FxAttributesStartValues:
   - i1: 40
     f1: 5.6e-44
@@ -8650,7 +8650,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 0
   m_FxSamplersDescHash: -466701125
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: d990a3ccffb6f3740b16284368dca491, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: e1ae26ecf41309b4c9e6c7a21c65b913, type: 2}
   m_FxName: Content/ContentExamples/25_TextSample.pkfx
 --- !u!114 &1530823394
 MonoBehaviour:
@@ -9907,7 +9907,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 1
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c2958ed83edda2b4e8f88d4b0d386162, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!114 &1819632754
 MonoBehaviour:
@@ -11645,7 +11645,7 @@ MonoBehaviour:
     m_WorldSpaceSampling: 1
   m_FxSamplersDescHash: 1254470789
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a5b189e9a0a9e4f4f8b103021db514a8, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c2958ed83edda2b4e8f88d4b0d386162, type: 2}
   m_FxName: Content/ContentExamples/21_MeshSample.pkfx
 --- !u!21 &2031620688
 Material:

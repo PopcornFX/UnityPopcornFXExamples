@@ -99,7 +99,7 @@ public static class AutomatedBaker
 		PKFxManager.PublicSetDelegateOnAssetChange(PKFxDelegateHandler.Instance.DelegateToFunctionPointer(new AssetChangeCallback(OnAssetChangeUnitTest)));
 
 		//For now assume that all effects are contained in the same pack and pack is set correctly
-		if (!PKFxSettings.ReimportAssets(effectsUsed))
+		if (!PKFxSettings.ReimportAssets(effectsUsed, "Editor"))
 		{
 			Debug.LogError(string.Format("ReimportAssets failed with asset:\n {0}", string.Join("\n", effectsUsed)));
 			EditorApplication.Exit(-1);

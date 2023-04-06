@@ -332,7 +332,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 612bc9e9da3d44d4087ae4f5bffb82ec, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 5349848b62168ba4facd2231828a2d65, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!54 &142765767
 Rigidbody:
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 612bc9e9da3d44d4087ae4f5bffb82ec, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 5349848b62168ba4facd2231828a2d65, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!1 &431177135
 GameObject:
@@ -4699,7 +4699,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 0e2f3c1b704de6945990744aa9399b01, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 49469b6f67d78574ba6c2d98de886a1e, type: 2}
   m_FxName: Content/ContentExamples/05_BasicEmitter.pkfx
 --- !u!21 &1399085822
 Material:
@@ -5343,7 +5343,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 0f769196651c5ad44aaaaaa3dec492f4, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: cf3eb2e0b3fa773409e023f92a1b5fa6, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -5470,7 +5470,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 0f769196651c5ad44aaaaaa3dec492f4, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: cf3eb2e0b3fa773409e023f92a1b5fa6, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1 &1843419912
 GameObject:
@@ -5539,14 +5539,109 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     m_Key: -1
+  - m_Desc:
+      m_Slot: 0
+      m_Name: EventCollide
+    m_Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1498564394}
+          m_TargetAssemblyTypeName: PKFxHandleEventFromEmitter, Unity.PopcornFX.Samples.Runtime
+          m_MethodName: HandleEvent
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_Key: -1
+  - m_Desc:
+      m_Slot: 0
+      m_Name: EventCollide
+    m_Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1498564394}
+          m_TargetAssemblyTypeName: PKFxHandleEventFromEmitter, Unity.PopcornFX.Samples.Runtime
+          m_MethodName: HandleEvent
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_Key: -1
+  - m_Desc:
+      m_Slot: 0
+      m_Name: EventCollide
+    m_Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1498564394}
+          m_TargetAssemblyTypeName: PKFxHandleEventFromEmitter, Unity.PopcornFX.Samples.Runtime
+          m_MethodName: HandleEvent
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_Key: -1
+  - m_Desc:
+      m_Slot: 0
+      m_Name: EventCollide
+    m_Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1498564394}
+          m_TargetAssemblyTypeName: PKFxHandleEventFromEmitter, Unity.PopcornFX.Samples.Runtime
+          m_MethodName: HandleEvent
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_Key: -1
+  - m_Desc:
+      m_Slot: 0
+      m_Name: EventCollide
+    m_Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1498564394}
+          m_TargetAssemblyTypeName: PKFxHandleEventFromEmitter, Unity.PopcornFX.Samples.Runtime
+          m_MethodName: HandleEvent
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    m_Key: -1
   m_FxAttributesDesc: []
-  m_EventDescsHash: -63538566
+  m_EventDescsHash: 1779595390
   m_FxAttributesDescHash: 371857150
   m_FxAttributesStartValues: []
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 6f9c5dc26b3ca47458ca9d086a07a640, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6120eaf12ce10e24c9fce29ce74da95e, type: 2}
   m_FxName: Content/ContentExamples/08_ParticleEvents.pkfx
 --- !u!1 &1845072580
 GameObject:
@@ -5603,7 +5698,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 0f769196651c5ad44aaaaaa3dec492f4, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: cf3eb2e0b3fa773409e023f92a1b5fa6, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!21 &1857646279
 Material:

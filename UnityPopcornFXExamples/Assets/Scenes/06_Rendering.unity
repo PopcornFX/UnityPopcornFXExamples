@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.4
   m_CustomReflection: {fileID: 8900000, guid: 53f8f847f553b73448fcd0d00a9e5c2f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23725131, g: 0.24245349, b: 0.22742656, a: 0.4}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.4}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1513,7 +1513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565288405}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  m_LocalPosition: {x: -0.577, y: 2.879, z: -3.231}
+  m_LocalPosition: {x: -1.87, y: 2.879, z: -3.231}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 654155691}
@@ -1527,7 +1527,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565288405}
-  m_Text: XX            XX
+  m_Text: XX
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -2976,7 +2976,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028516242}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a5c02dd42880460b914f6e0206b8c28, type: 3}
   m_Name: 
@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ca38aab048704ab43ad24797cf447f76, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 0adb1eda44ef87b44be7678d3778e821, type: 2}
   m_FxName: Content/ContentExamples/43_Renderers.pkfx
 --- !u!1 &1036906708
 GameObject:
@@ -4672,7 +4672,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 21cbcc7c8c33c6849994787fdb52c207, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 713e4c7e45f6eed459816b907c9caafa, type: 2}
   m_FxName: Content/ContentExamples/00_Fountain.pkfx
 --- !u!1 &1844209708
 GameObject:
@@ -4995,7 +4995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1943502262
 MonoBehaviour:
   m_ObjectHideFlags: 0
