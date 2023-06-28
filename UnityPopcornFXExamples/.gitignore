@@ -1,8 +1,8 @@
-Library/
-Temp/
-obj/
-Logs/
-.vs/
+/Library/
+/Temp/
+/obj/
+/Logs/
+/.vs/
 popcorn.htm
 
 *.sln
