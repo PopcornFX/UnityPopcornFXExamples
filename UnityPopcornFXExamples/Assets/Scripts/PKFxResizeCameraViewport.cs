@@ -24,6 +24,7 @@ public class PKFxResizeCameraViewport : MonoBehaviour
 	{
 		GrowthFactor = 0;
 		m_TimeElapse = 0.0f;
+		Secondary.gameObject.SetActive(false);
 	}
 
 
@@ -37,7 +38,7 @@ public class PKFxResizeCameraViewport : MonoBehaviour
 
 			rect = Vector4.Lerp(m_MainStart, m_MainEnd, m_TimeElapse / m_Timer);
 			Main.rect = new Rect(rect.x, rect.y, rect.z, rect.w);
-
+			Secondary.gameObject.SetActive(true);
 		}
 		else if (GrowthFactor < 0)
 		{
@@ -51,6 +52,8 @@ public class PKFxResizeCameraViewport : MonoBehaviour
 		}
 		if (m_TimeElapse > m_Timer)
 		{
+			if (GrowthFactor == -1)
+				Secondary.gameObject.SetActive(false);
 			GrowthFactor = 0;
 			m_TimeElapse = 0.0f;
 		}

@@ -1,8 +1,8 @@
 # Unity PopcornFX Plugin Example
 
 Demonstrate the **PopcornFX Runtime Plugin** for **Unity software**.
-* **Version:** `v2.12.0`
-* **Unity:** `2019.4` to `2022.x`
+* **Version:** `v2.18.0`
+* **Unity:** `2021.3` to `2023.x`
 * **Platforms:** `Windows`, `Linux`, `MacOS`, `iOS`, `Android`, `PS4`, `XboxOne`, `Switch`. 
 [Contact-us](https://www.popcornfx.com/contact-popcornfx/) to request access to the plugin for consoles.
 

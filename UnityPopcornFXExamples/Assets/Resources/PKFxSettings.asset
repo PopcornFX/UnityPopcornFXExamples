@@ -17,7 +17,7 @@ MonoBehaviour:
   m_QualityCategory: 1
   m_EnableRaycastForCollisions: 0
   m_EnableAssetPlatformVersion: 1
-  m_CurrentPlatform: 5
+  m_CurrentPlatform: 31
   m_PopcornLayerName:
   - PopcornFX_0
   - 
@@ -386,6 +386,131 @@ MonoBehaviour:
     m_StaticWorldBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 36000
+    m_DefaultIndexBufferSize: 54003
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Solid UVs RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs  Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 36000
+    m_DefaultIndexBufferSize: 54003
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Ribbon  Color Diffuse  Additive UVs  Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 54000
+    m_DefaultIndexBufferSize: 108003
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  AlphaBlend UVs RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 6000
+    m_DefaultIndexBufferSize: 9003
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs RGBOnly Content/ContentExamples/Textures/FX/TextAtlas.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Ribbon  Atlas Color Diffuse  Additive UVs RGBOnly Library/Persistant
+      Studios/Common/Textures/Debug.png (none) (none) (none) (none) (none) (none)
+      (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: 'Triangle  Lighting Color Diffuse CastShadow  Solid UVs RGBOnly
+      Library/PopcornFXCore/Materials/DefaultTextures/White.dds (none) [Lit: Library/PopcornFXCore/Materials/DefaultTextures/NMap_Flat.dds
+      Library/PopcornFXCore/Materials/DefaultTextures/White.dds Shadows 0.5 1 0]
+      (none) (none) (none) (none) (none) 1'
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Additive UVs  Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 54000
+    m_DefaultIndexBufferSize: 108003
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Color Diffuse  Solid UVs  Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Ribbon  Color Diffuse  Additive UVs RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs  Content/ContentExamples/Textures/FX/TextAtlas.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: 'Billboard  Lighting Color Diffuse CastShadow  Additive UVs
+      RGBOnly Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds (none)
+      [Lit: Library/PopcornFXCore/Materials/DefaultTextures/NMap_Flat.dds Library/PopcornFXCore/Materials/DefaultTextures/White.dds
+      noShadows 0 1 0] (none) (none) (none) (none) (none) 1'
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Ribbon  Atlas Color Diffuse  Additive UVs  Library/Persistant
+      Studios/Common/Textures/Debug.png (none) (none) (none) (none) (none) (none)
+      (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
+  - m_GeneratedName: Billboard  Atlas Color Diffuse  Additive UVs  Library/PopcornFXCore/Materials/DefaultTextures/Diffuse.dds
+      (none) (none) (none) (none) (none) (none) (none) 1
+    m_DefaultVertexBufferSize: 384
+    m_DefaultIndexBufferSize: 1155
+    m_StaticWorldBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 50, y: 50, z: 50}
   m_UseMeshInstancing: 1
   m_FreeUnusedBatches: 0
   m_FrameCountBeforeFreeingUnusedBatches: 240
@@ -405,6 +530,7 @@ MonoBehaviour:
   m_ProfilerPerEffectBudgetInSeconds: 0.0005
   m_ProfilerSceneParticleBudget: 10000
   m_ProfilerPerEffectParticleBudget: 1000
+  m_CPPMarkersMaxDepth: 2
   m_ProfilerColorBudgetExceeded: {r: 1, g: 0, b: 0, a: 1}
   m_ProfilerColorBudgetNormal: {r: 0, g: 1, b: 0, a: 1}
   m_ProfilerHideKey: 101
@@ -427,7 +553,7 @@ MonoBehaviour:
   m_EnableHotreloadInPlayMode: 0
   m_UseHashesAsMaterialName: 1
   m_EnableForceDeterminism: 0
-  m_PopcornPackFxPath: 
+  m_PopcornPackFxPath: ../../V2_Unity/release/application/Packs/ContentExamples/Unity
   m_UnityPackFxPath: /PopcornFXAssets
   m_QualityVersionNames:
   - VeryLow
