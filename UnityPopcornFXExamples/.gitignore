@@ -1,8 +1,8 @@
-/Library/
-/Temp/
-/obj/
-/Logs/
-/.vs/
+Library/
+Temp/
+obj/
+Logs/
+.vs/
 popcorn.htm
 
 *.sln
@@ -17,5 +17,16 @@ popcorn.htm
 *.app
 *.apk
 .DS_Store
+
+# Common
+Assets/ActualImages
+Assets/Gizmos
+Assets/PopcornFX
+Assets/PopcornFX_Package
+Assets/PopcornFXAssets
+Assets/Plugins
+Assets/StreamingAssets/
+Assets/PK_Internal/
+Assets/Editor\ Default\ Resources/PopcornFXAssets/
 
 packages-lock.json

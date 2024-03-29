@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 1
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Localspace
@@ -303,18 +304,18 @@ MonoBehaviour:
         i1: 0
         f1: 0
       z:
-        i1: 16
-        f1: 2.2e-44
+        i1: 0
+        f1: 0
       w:
         i1: 0
         f1: 0
     m_MaxValue:
       x:
-        i1: -405384877
-        f1: -2.0241732e+24
+        i1: 0
+        f1: 0
       y:
-        i1: 32766
-        f1: 4.5915e-41
+        i1: 0
+        f1: 0
       z:
         i1: 0
         f1: 0
@@ -322,7 +323,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -862158831
+  m_FxAttributesDescHash: -1861522717
   m_FxAttributesStartValues:
   - i1: 255
     f1: 3.57e-43
@@ -335,7 +336,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 6c57d9a7a0128d94ea10152f83144ae6, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6d7244dba67ac6c409642b2bf770cc6c, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!54 &142765767
 Rigidbody:
@@ -1833,6 +1834,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 1
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Localspace
@@ -1859,18 +1861,18 @@ MonoBehaviour:
         i1: 0
         f1: 0
       z:
-        i1: 16
-        f1: 2.2e-44
+        i1: 0
+        f1: 0
       w:
         i1: 0
         f1: 0
     m_MaxValue:
       x:
-        i1: -405384877
-        f1: -2.0241732e+24
+        i1: 0
+        f1: 0
       y:
-        i1: 32766
-        f1: 4.5915e-41
+        i1: 0
+        f1: 0
       z:
         i1: 0
         f1: 0
@@ -1878,7 +1880,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: -862158831
+  m_FxAttributesDescHash: -1861522717
   m_FxAttributesStartValues:
   - i1: 0
     f1: 0
@@ -1891,7 +1893,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 6c57d9a7a0128d94ea10152f83144ae6, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6d7244dba67ac6c409642b2bf770cc6c, type: 2}
   m_FxName: Content/ContentExamples/07_Localspace.pkfx
 --- !u!1 &431177135
 GameObject:
@@ -4792,7 +4794,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: d70ef05f650c776409d29773bcefb0c9, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: eb9eddb5c73b5a244b52472fb7e80618, type: 2}
   m_FxName: Content/ContentExamples/05_BasicEmitter.pkfx
 --- !u!21 &1399085822
 Material:
@@ -5450,7 +5452,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 5211885ac744c744f9c046191e424268, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 262ea1f655c1afb43821d92ed6af24cf, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -5578,7 +5580,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 5211885ac744c744f9c046191e424268, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 262ea1f655c1afb43821d92ed6af24cf, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!1 &1843419912
 GameObject:
@@ -5750,7 +5752,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 123ee2f3858a7b34b9e60cf4e5c14f38, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 262fff2745733064cb12d238f59cc17e, type: 2}
   m_FxName: Content/ContentExamples/08_ParticleEvents.pkfx
 --- !u!1 &1845072580
 GameObject:
@@ -5808,7 +5810,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 5211885ac744c744f9c046191e424268, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 262ea1f655c1afb43821d92ed6af24cf, type: 2}
   m_FxName: Content/ContentExamples/09_Prewarm.pkfx
 --- !u!21 &1857646279
 Material:
@@ -6835,7 +6837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UseSceneMesh: 1
-  m_SceneMesh: {fileID: 1182038853624410110, guid: 5684ba706d40f5d47a1e139d613e8e30, type: 3}
+  m_SceneMesh: {fileID: 510242007713206013, guid: 5684ba706d40f5d47a1e139d613e8e30, type: 3}
   m_TimeMultiplier: 1
   m_Cameras: []
   m_PreloadEffect: []

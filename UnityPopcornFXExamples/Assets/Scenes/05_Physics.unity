@@ -373,7 +373,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: bd771995aace30045aa3cf78509244ea, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b304a089eedc8e44aa7b138c42ce81df, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &266470292
 GameObject:
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: bd771995aace30045aa3cf78509244ea, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b304a089eedc8e44aa7b138c42ce81df, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &531295620
 GameObject:
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: bd771995aace30045aa3cf78509244ea, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b304a089eedc8e44aa7b138c42ce81df, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &560927079
 GameObject:
@@ -1274,7 +1274,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: bd771995aace30045aa3cf78509244ea, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b304a089eedc8e44aa7b138c42ce81df, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &774210265
 GameObject:
@@ -3152,7 +3152,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: bd771995aace30045aa3cf78509244ea, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b304a089eedc8e44aa7b138c42ce81df, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &1614203516
 GameObject:
@@ -3405,7 +3405,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a593e5dd0890a5a47bf060566b6c1d50, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: c6775572f7f1e35428449c1eaf64e024, type: 2}
   m_FxName: Content/ContentExamples/32_Collisions_Sphere.pkfx
 --- !u!1001 &1812716648
 PrefabInstance:
@@ -3688,7 +3688,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: bd771995aace30045aa3cf78509244ea, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: b304a089eedc8e44aa7b138c42ce81df, type: 2}
   m_FxName: Content/ContentExamples/31_Collisions.pkfx
 --- !u!1 &1993170018
 GameObject:
@@ -4127,7 +4127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UseSceneMesh: 1
-  m_SceneMesh: {fileID: 5172641735928791091, guid: 8b78d5767f6c0f14697e26a645f851be, type: 3}
+  m_SceneMesh: {fileID: 510242007713206013, guid: 8b78d5767f6c0f14697e26a645f851be, type: 3}
   m_TimeMultiplier: 1
   m_Cameras: []
   m_PreloadEffect: []

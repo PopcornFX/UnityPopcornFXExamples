@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: d2e2ae80ebe305c4ba5777cfef7f7b9b, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 256bf32749febca4e8ec4b18104bf44d, type: 2}
   m_FxName: Content/ContentExamples/Unity/44_LightParticles.pkfx
 --- !u!1 &433981148
 GameObject:
@@ -1824,7 +1824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &510355905
 Transform:
   m_ObjectHideFlags: 0
@@ -1858,14 +1858,14 @@ MonoBehaviour:
   m_PreWarm: 0
   m_Events: []
   m_FxAttributesDesc: []
-  m_EventDescsHash: -1
-  m_FxAttributesDescHash: -1
+  m_EventDescsHash: 371857150
+  m_FxAttributesDescHash: 371857150
   m_FxAttributesStartValues: []
   m_FxSamplersList: []
-  m_FxSamplersDescHash: -1
+  m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 0}
-  m_FxName: 
+  m_FxAsset: {fileID: 11400000, guid: 372d6c1cfd6338643a4c380a504e99f3, type: 2}
+  m_FxName: Content/ContentExamples/46_VertexAnimation.pkfx
 --- !u!1 &565288405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3541,7 +3541,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: a384ff0a9f02f374aae5639a9b408fde, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 6f28c7d64ebd26747bea295797e138dd, type: 2}
   m_FxName: Content/ContentExamples/43_Renderers.pkfx
 --- !u!1 &1036906708
 GameObject:
@@ -4922,7 +4922,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 7a04e047185fb6e4a8b1a44bb0259357, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 5d1e995e7d02fd744bdd53f9ede15685, type: 2}
   m_FxName: Content/ContentExamples/Unity/44_SoundRenderers.pkfx
 --- !u!21 &1395830716
 Material:
@@ -6357,7 +6357,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ee2227160cd09fe479f6d78afccae8c6, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 9360460d81b57e84e873771363eb0cb4, type: 2}
   m_FxName: Content/ContentExamples/00_Fountain.pkfx
 --- !u!1 &1850771784
 GameObject:

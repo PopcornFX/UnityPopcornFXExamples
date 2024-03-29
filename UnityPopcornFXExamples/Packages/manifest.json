@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.persistant-studios.popcornfx": "git+https://github.com/PopcornFX/UnityPopcornFXPlugin?path=/com.persistant-studios.popcornfx#v2.18.0",
+    "com.persistant-studios.popcornfx": "git+https://github.com/PopcornFX/UnityPopcornFXPlugin?path=/com.persistant-studios.popcornfx#v2.19.0",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "2.0.3",
     "com.unity.ide.rider": "3.0.18",

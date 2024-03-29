@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DefaultMaterialFactory
   m_EditorClassIdentifier: 
   m_UseSortingLayers: 0
+  m_FactoryType: 0
   DistortionShader: {fileID: 4800000, guid: d148465e45222432f85a1d3e92677308, type: 3}
   BlurShader: {fileID: 4800000, guid: 0dc1a323808c03945a1db3a1cfacef2a, type: 3}
   m_TransparentMeshUnlitDefault: {fileID: 11400000, guid: a392e4f345378aa4bb33f88e071ec137, type: 2}

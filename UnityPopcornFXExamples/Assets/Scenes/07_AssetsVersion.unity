@@ -1190,6 +1190,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
@@ -1235,7 +1236,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 920220476
+  m_FxAttributesDescHash: 767414113
   m_FxAttributesStartValues:
   - i1: 1065353216
     f1: 1
@@ -1248,7 +1249,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: 0f4e2ffd2863a864a982fad1a3438449, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: ead4c128df84764408e1fea299ba9a9c, type: 2}
   m_FxName: Content/ContentExamples/Unity/80_QualityVersions.pkfx
 --- !u!114 &510355907
 MonoBehaviour:

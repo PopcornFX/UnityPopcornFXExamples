@@ -177,6 +177,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
@@ -222,6 +223,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
@@ -267,6 +269,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_Semantic: 3
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
@@ -312,6 +315,7 @@ MonoBehaviour:
         i1: 2139095039
         f1: 3.4028235e+38
   - m_Type: 1
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: EnableTrail
@@ -332,31 +336,32 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
     m_MaxValue:
       x:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
   - m_Type: 25
+    m_Semantic: 0
     m_DropMode: 1
     m_MinMaxFlag: 0
     m_Name: TrailType
@@ -402,7 +407,7 @@ MonoBehaviour:
         i1: 2143289344
         f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 268352852
+  m_FxAttributesDescHash: -624523540
   m_FxAttributesStartValues:
   - i1: 1056964608
     f1: 0.5
@@ -447,7 +452,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ac38cfacc52b97a40b8921a4c79fbc0b, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 08dbe95a62b3772429508f06e8a08b3e, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &99682312
 GameObject:
@@ -4386,6 +4391,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
@@ -4431,6 +4437,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
@@ -4476,6 +4483,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_Semantic: 3
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
@@ -4521,6 +4529,7 @@ MonoBehaviour:
         i1: 2139095039
         f1: 3.4028235e+38
   - m_Type: 1
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: EnableTrail
@@ -4541,31 +4550,32 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
     m_MaxValue:
       x:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
   - m_Type: 25
+    m_Semantic: 0
     m_DropMode: 1
     m_MinMaxFlag: 0
     m_Name: TrailType
@@ -4611,7 +4621,7 @@ MonoBehaviour:
         i1: 2143289344
         f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 268352852
+  m_FxAttributesDescHash: -624523540
   m_FxAttributesStartValues:
   - i1: 1056964608
     f1: 0.5
@@ -4656,7 +4666,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ac38cfacc52b97a40b8921a4c79fbc0b, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 08dbe95a62b3772429508f06e8a08b3e, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!114 &1506116342
 MonoBehaviour:
@@ -5884,6 +5894,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
@@ -5929,6 +5940,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
@@ -5974,6 +5986,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_Semantic: 3
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
@@ -6019,6 +6032,7 @@ MonoBehaviour:
         i1: 2139095039
         f1: 3.4028235e+38
   - m_Type: 1
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: EnableTrail
@@ -6039,31 +6053,32 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
     m_MaxValue:
       x:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
   - m_Type: 25
+    m_Semantic: 0
     m_DropMode: 1
     m_MinMaxFlag: 0
     m_Name: TrailType
@@ -6109,7 +6124,7 @@ MonoBehaviour:
         i1: 2143289344
         f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 268352852
+  m_FxAttributesDescHash: -624523540
   m_FxAttributesStartValues:
   - i1: 1065353216
     f1: 1
@@ -6154,7 +6169,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ac38cfacc52b97a40b8921a4c79fbc0b, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 08dbe95a62b3772429508f06e8a08b3e, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &1915311006
 GameObject:
@@ -6404,6 +6419,7 @@ MonoBehaviour:
   m_Events: []
   m_FxAttributesDesc:
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: RotationSpeed
@@ -6449,6 +6465,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 31
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 3
     m_Name: SpawnCountScale
@@ -6494,6 +6511,7 @@ MonoBehaviour:
         i1: 0
         f1: 0
   - m_Type: 34
+    m_Semantic: 3
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: Color
@@ -6539,6 +6557,7 @@ MonoBehaviour:
         i1: 2139095039
         f1: 3.4028235e+38
   - m_Type: 1
+    m_Semantic: 0
     m_DropMode: 0
     m_MinMaxFlag: 0
     m_Name: EnableTrail
@@ -6559,31 +6578,32 @@ MonoBehaviour:
         f1: 0
     m_MinValue:
       x:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: -8388609
-        f1: -3.4028235e+38
+        i1: 0
+        f1: 0
     m_MaxValue:
       x:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       y:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       z:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
       w:
-        i1: 2139095039
-        f1: 3.4028235e+38
+        i1: 0
+        f1: 0
   - m_Type: 25
+    m_Semantic: 0
     m_DropMode: 1
     m_MinMaxFlag: 0
     m_Name: TrailType
@@ -6629,7 +6649,7 @@ MonoBehaviour:
         i1: 2143289344
         f1: NaN
   m_EventDescsHash: 371857150
-  m_FxAttributesDescHash: 268352852
+  m_FxAttributesDescHash: -624523540
   m_FxAttributesStartValues:
   - i1: 1073741824
     f1: 2
@@ -6674,7 +6694,7 @@ MonoBehaviour:
   m_FxSamplersList: []
   m_FxSamplersDescHash: 371857150
   m_BoundFx: {fileID: 0}
-  m_FxAsset: {fileID: 11400000, guid: ac38cfacc52b97a40b8921a4c79fbc0b, type: 2}
+  m_FxAsset: {fileID: 11400000, guid: 08dbe95a62b3772429508f06e8a08b3e, type: 2}
   m_FxName: Content/ContentExamples/15_Attributes.pkfx
 --- !u!1 &1971231593
 GameObject:
