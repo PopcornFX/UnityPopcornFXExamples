@@ -16,14 +16,8 @@ MonoBehaviour:
   m_AssetCategory: 0
   m_QualityCategory: 1
   m_EnableRaycastForCollisions: 0
-  m_EnableAssetPlatformVersion: 1
-  m_CurrentPlatform: 31
-  m_PopcornLayerName:
-  - PopcornFX_0
-  - PopcornFX_1
-  - 
-  - 
-  - 
+  m_UpdateSimManually: 0
+  m_UseApplicationAudioLoopback: 0
   m_AssetGUID:
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/UnrealEngine/73_SampleMesh.pkfx.asset
     m_New: fa66a39fa7f2cf94cb6a87463d99b814
@@ -116,10 +110,10 @@ MonoBehaviour:
     m_New: 21d2b5622c439c846a7fce8753fd8103
     m_Old: 21d2b5622c439c846a7fce8753fd8103
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/46_VertexAnimation.pkfx.asset
-    m_New: 9c2c855fc776ca54cb96390f79618ad7
+    m_New: 2f03ddb2c595bbe41ba2af8d383bceb7
     m_Old: 9c2c855fc776ca54cb96390f79618ad7
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/43_Renderers.pkfx.asset
-    m_New: ffb7444f6e989e24282db90c99260151
+    m_New: 69723d40ed71b3d4293c9853bcda85ca
     m_Old: ffb7444f6e989e24282db90c99260151
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/32_Collisions_Sphere.pkfx.asset
     m_New: 78a874980927b7a4ab492a8198a18467
@@ -131,8 +125,8 @@ MonoBehaviour:
     m_New: 6778541ddb321d2488d225957b99f15f
     m_Old: 6778541ddb321d2488d225957b99f15f
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/22_TextureSample.pkfx.asset
-    m_New: c9b92aa66c39bb64caffb74fae433283
-    m_Old: 611d674fe054f2b41984456e842ad7cd
+    m_New: ad6d59aea7c8bc44a8a2c87819b09820
+    m_Old: c9b92aa66c39bb64caffb74fae433283
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/21_MeshSample.pkfx.asset
     m_New: 344d24f5b99811841af7df4233723e98
     m_Old: 344d24f5b99811841af7df4233723e98
@@ -146,16 +140,16 @@ MonoBehaviour:
     m_New: ef8c6ca24172b2845967e44394fc1318
     m_Old: ef8c6ca24172b2845967e44394fc1318
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/08_ParticleEvents.pkfx.asset
-    m_New: cde1b84c892c5e243b4f975632c6f260
+    m_New: 6e7e117137c7e604c80f3a58498d25ee
     m_Old: cde1b84c892c5e243b4f975632c6f260
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/07_Localspace.pkfx.asset
     m_New: ff1288f0d13b3654cadf808cdff946e5
     m_Old: b21a04edf9f7af74a895f3992bd7d87c
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/06_Burst.pkfx.asset
-    m_New: 7500df5e114fd7e4f8562ab09c76e2ec
+    m_New: 9da1ef93f305ad843b86f46071a2cd86
     m_Old: 7500df5e114fd7e4f8562ab09c76e2ec
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/05_BasicEmitter.pkfx.asset
-    m_New: 22292e5109b9bea49a06597743b09142
+    m_New: 7f1b0cfb915d069418d05486ae24471b
     m_Old: 22292e5109b9bea49a06597743b09142
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/00_Fountain.pkfx.asset
     m_New: b5120df6f619c324692ad2f2a8b38a02
@@ -178,11 +172,58 @@ MonoBehaviour:
   - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/44_SoundRenderers.pkfx.asset
     m_New: 46d26f0ad0eef3c40b842941afedbbba
     m_Old: 46d26f0ad0eef3c40b842941afedbbba
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/81_TransformUVs.pkfx.asset
+    m_New: 3de29caa25347634880526a9b102a8b2
+    m_Old: 3de29caa25347634880526a9b102a8b2
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/82_SoftParticles.pkfx.asset
+    m_New: 4c57f4d33d1d96c4580cb8ff540b2e96
+    m_Old: 4c57f4d33d1d96c4580cb8ff540b2e96
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/83_AlphaRemap.pkfx.asset
+    m_New: 3db9eea9be16be0419db486d0629b14a
+    m_Old: 3db9eea9be16be0419db486d0629b14a
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/46_DecalRenderers.pkfx.asset
+    m_New: e093c9d216e1c5841ab42f4d15d59d8a
+    m_Old: 0a2eedfb1d9d1ba478b63889ca6610a2
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/simu_ShallowWater.pkfx.asset
+    m_New: cce32b697ff9cb0469124d0d22480265
+    m_Old: 81af3bc8cead18340984138fe6243617
+  - m_Path: Assets/PopcornFXAssets/Content/GDC24/AcidSmoke.pkfx.asset
+    m_New: a5e85d872a6c0fe4ab6d302adc464b1f
+    m_Old: a5e85d872a6c0fe4ab6d302adc464b1f
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/AcidSmoke.pkfx.asset
+    m_New: 2f1d2d4789c8ed642a99287bfcfb3282
+    m_Old: ec06a3065239de7418f9d31c027fc4ba
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/Basic.pkfx.asset
+    m_New: be3d745017a18de4ca6166ce78011037
+    m_Old: 9cdd24c3d5fd778459261be375bc2ac8
+  - m_Path: Assets/PopcornFXAssets/Content/GDC24/Dripping_v2_Update.pkfx.asset
+    m_New: 99694d670b74b00409f8e8fc76780034
+    m_Old: 99694d670b74b00409f8e8fc76780034
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/AcidRain.pkfx.asset
+    m_New: 2ff03f9ac0a90c74ea136cc5236c30e6
+    m_Old: d20b885d68eca704787b609c7236c319
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/simu_windshield.pkfx.asset
+    m_New: 80f9c7a713960ae46b1cdc1948ffd06a
+    m_Old: 80f9c7a713960ae46b1cdc1948ffd06a
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/simu_Rope.pkfx.asset
+    m_New: 98f9093e838e7c24aab6f282b8f7a3f4
+    m_Old: 98f9093e838e7c24aab6f282b8f7a3f4
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/Dripping_v2_Update.pkfx.asset
+    m_New: e50751048c50b874996c005b87052841
+    m_Old: e50751048c50b874996c005b87052841
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/GDC24/Dripping.pkfx.asset
+    m_New: 84cea3b7478a74547b5d0a6adb757ae8
+    m_Old: 84cea3b7478a74547b5d0a6adb757ae8
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/GDC24/91_ShallowWater.pkfx.asset
+    m_New: 43a127c8060bae346a9a61b9017e564e
+    m_Old: 43a127c8060bae346a9a61b9017e564e
+  - m_Path: Assets/PopcornFXAssets/Content/ContentExamples/Unity/GDC24/90_Rope.pkfx.asset
+    m_New: fc40b9bb45542a048919a243a596b93d
+    m_Old: fc40b9bb45542a048919a243a596b93d
   m_RenderingCategory: 1
-  m_MaterialFactory: {fileID: 11400000, guid: 0d556c893be39e546a02e9c23fd782f6, type: 2}
+  m_MaterialFactory: {fileID: 11400000, guid: 8c00773345435bc4ea857d5a6857cbfb, type: 2}
   m_EnableSoftParticles: 1
   m_DisableDynamicEffectBounds: 0
-  m_UseApplicationAudioLoopback: 0
   m_EnableThumbnails: 1
   m_UseThumbnailsInBuilds: 0
   m_EnableAnimatedThumbnails: 1
@@ -196,15 +237,26 @@ MonoBehaviour:
   m_FrameCountBeforeFreeingUnusedBatches: 240
   m_ManualCameraLayer: 0
   m_MaxCameraSupport: 2
-  m_UpdateSimManually: 0
+  m_EnableEditorCamera: 1
   m_EnablePopcornFXLight: 1
   m_MaxPopcornFXLights: 16
   m_EnablePopcornFXSound: 1
   m_MaxPopcornFXSounds: 16
+  m_EnablePopcornFXDecal: 1
+  m_MaxPopcornFXDecals: 16
   m_ThreadingCategory: 0
   m_SingleThreadedExecution: 0
   m_OverrideThreadPoolConfig: 0
   m_ThreadsAffinity: 
+  m_LODCategory: 1
+  m_LODAdvanceCategory: 0
+  m_OverrideLODSettings: 0
+  m_LODDefaultMinDistance: 5
+  m_LODDefaultMaxDistance: 200
+  m_LODDefaultMinMinDistance: 2
+  m_LODMinDistance: 5
+  m_LODMaxDistance: 200
+  m_LODMinMinDistance: 2
   m_ProfilerCategory: 1
   m_ProfilerSceneBudgetInSeconds: 0.002
   m_ProfilerPerEffectBudgetInSeconds: 0.0005
@@ -220,8 +272,8 @@ MonoBehaviour:
   m_EnableLocalizedPages: 1
   m_EnableLocalizedByDefault: 1
   m_FeatureSetCategory: 1
-  m_EnableDistortion: 0
-  m_EnableBlur: 0
+  m_EnableDistortion: 1
+  m_EnableBlur: 1
   m_BlurFactor: 0.2
   m_DebugCategory: 1
   m_EnablePopcornFXLogs: 1
@@ -233,8 +285,10 @@ MonoBehaviour:
   m_EnableHotreloadInPlayMode: 0
   m_UseHashesAsMaterialName: 1
   m_EnableForceDeterminism: 0
-  m_PopcornPackFxPath: 
+  m_PopcornPackFxPath: ../../../../../release/application/Packs/ContentExamples/Unity
   m_UnityPackFxPath: /PopcornFXAssets
+  m_EnableAssetPlatformVersion: 1
+  m_CurrentPlatform: 5
   m_QualityVersionNames:
   - VeryLow
   - Low

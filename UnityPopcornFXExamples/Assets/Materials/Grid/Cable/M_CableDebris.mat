@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3650134496708893808
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_CableDebris
+  m_Shader: {fileID: -6465566751694194690, guid: b457e340081d02642a65946dd2bd3ebc, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - PK_HAS_DIFFUSE_MAP
+  - PK_HAS_DIFFUSE_MAP_ON
+  - PK_HAS_EMISSIVE_NONE
+  - PK_HAS_EMISSIVE_NONE_ON
+  - PK_HAS_VAT_NONE
+  - PK_HAS_VAT_NONE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseRampMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 2800000, guid: bea2f43a16a9f9d42abb8e7707f2e168, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveRampMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 179018a56ccfff64498689ad8d175896, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_265cf5739ccb4b65bc6ec90982c5320d_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f6f3a6227d9c65646ac6794a149a36e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_60f107660bb14d9c99ca892b2c230f42_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2d22447661841da4a854ea6bd87bbc9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6ba3945667434f6b9414cc4747812b39_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 126ca389cfe57514ea63146083c1eecb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a415ecc042d64839b227777d64490e2f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e7eea96adfca97f459ffe2752e9c0b50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f821f9ce0540487389d491a20688fdfe_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6fb95b0510b9d5946b484f804471159c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_5e5503c67dac4306bafa7950dee7239f_Out_0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PK_HAS_ALPHA_REMAP: 0
+    - PK_HAS_ANIM_BLEND: 0
+    - PK_HAS_DIFFUSE_RAMP: 0
+    - PK_HAS_EMISSIVE: 0
+    - PK_HAS_TRANSFORM_UVS: 0
+    - _AlphaCursor: 0
+    - _AlphaRemapCursor: 0
+    - _CutOutAlpha: 0
+    - _DstBlendMode: 1
+    - _EmissivePowerAfterOK: 0.8
+    - _EmissivePowerBeforeOK: 0.5
+    - _FlowSpeedAfterOK: 6
+    - _FlowSpeedBeforeOK: 10
+    - _InvSoftnessDistance: 5000
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RotateUVs: 0
+    - _SrcBlendMode: 1
+    - _TestPower: 0.6
+    - _TextureID: 0
+    - _TransformUVs_RGBOnly: 0
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

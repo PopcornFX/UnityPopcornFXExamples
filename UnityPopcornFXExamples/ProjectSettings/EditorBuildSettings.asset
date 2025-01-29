@@ -6,27 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/00_WelcomeToPopcornFX.unity
-    guid: 9bb683d301f8f244490d5f930e68b0be
+    path: Assets/Scenes/00_WelcomeToPopcornFX_URP.unity
+    guid: 25e6583392213154f914a86a7a3944b3
   - enabled: 1
-    path: Assets/Scenes/01_Effects.unity
-    guid: 6be645f5a597b0d48a98f1a25f44bbb3
+    path: Assets/Scenes/01_Effects_URP.unity
+    guid: fb7709db67d6f074997e6553abcf42eb
   - enabled: 1
-    path: Assets/Scenes/02_Emitters.unity
-    guid: 74b76f9068a049146ac5992e5cf46aaa
+    path: Assets/Scenes/02_Emitters_URP.unity
+    guid: c43b90cc6dbb44d41802d1b8db39813a
   - enabled: 1
-    path: Assets/Scenes/03_Attributes.unity
-    guid: 2f3286bc168cab2449501dde4f7f9100
+    path: Assets/Scenes/03_Attributes_URP.unity
+    guid: 7197db345e212e642b930cdf34be85d3
   - enabled: 1
-    path: Assets/Scenes/04_Samplers.unity
-    guid: 15501c6dc88439d40911245c2b8c2b54
+    path: Assets/Scenes/04_Samplers_URP.unity
+    guid: 0e7241cf1755af84cb492b91efc072d5
   - enabled: 1
-    path: Assets/Scenes/05_Physics.unity
-    guid: 46e524b4a34269c44aacd062d99d6199
+    path: Assets/Scenes/05_Physics_URP.unity
+    guid: 213441a61569a994f81b49717d38b5e4
   - enabled: 1
-    path: Assets/Scenes/06_Rendering.unity
-    guid: d3d92e2e36f7bc0489d657b4a708fd55
+    path: Assets/Scenes/06_Rendering_URP.unity
+    guid: 89748eeeb1bc6434f9b1fcc1b21f5781
   - enabled: 1
-    path: Assets/Scenes/07_AssetsVersion.unity
-    guid: b58b9ffd8aaa30a42bf13c77fa45c89c
+    path: Assets/Scenes/07_AssetsVersion_URP.unity
+    guid: 7705e81d457ee9140976cff5b1df8c55
+  - enabled: 1
+    path: Assets/Scenes/08_UsefulFeatures_URP.unity
+    guid: 66ee13b116894194086f205debfbd3c5
+  - enabled: 1
+    path: Assets/Scenes/09_Grids.unity
+    guid: 16aa59cf233f66b4ab4b90c80505808f
   m_configObjects: {}
